@@ -1,0 +1,1080 @@
+{
+  "id": "legion-cubo-cup-2026",
+  "badge": "3x3 - 2x2",
+  "title": "Legion Cubo Cup 2026",
+  "statusType": "finished",
+  "dateRange": "26 - 27 de setiembre de 2026",
+  "description": "La Legion Cubo Cup 2026 es un torneo virtual y gratuito de 2x2 y 3x3, abierto a participantes de cualquier país. Registra tus tiempos y participa desde donde estés a través de LC-Rivals.",
+  "about_tournament": "La Legion Cubo Cup 2026 es un torneo virtual y gratuito, abierto a participantes de cualquier país. El torneo contará con las categorías 2x2 y 3x3, y los tiempos serán registrados a través de LC-Rivals.\n\n        ¿Cómo participar?\n\n        1. Inicia sesión con tu cuenta de Legion Cubo.\n        2. Regístrate en el torneo desde esta página para confirmar tu participación.\n        3. Únete a la ronda correspondiente en el horario indicado en el cronograma.\n        4. Al unirte a la ronda, accederás al timer virtual de LC-Rivals para realizar tus tiempos.\n        5. Al finalizar tus 5 tiempos, podrás enviar tus resultados para que queden registrados en la competición.\n        \n        Revisa el cronograma y asegúrate de ingresar a cada ronda en el horario correspondiente.\n        ",
+  "participate": "La Legion Cubo Cup 2026 es un torneo completamente gratuito y virtual. Pueden participar personas de cualquier país, sin importar su ubicación.",
+  "cronograma": [
+    {
+      "day": "Sábado, 26 de setiembre de 2026",
+      "shedule": [
+        {
+          "hour": "01:00 UTC-5",
+          "type_round": "first-round",
+          "category": "222",
+          "description": null
+        },
+        {
+          "hour": "01:30 UTC-5",
+          "type_round": "final",
+          "category": "222",
+          "description": null
+        }
+      ]
+    },
+    {
+      "day": "Domingo, 27 de setiembre de 2026",
+      "shedule": [
+        {
+          "hour": "01:00 UTC-5",
+          "type_round": "first-round",
+          "category": "333",
+          "description": null
+        },
+        {
+          "hour": "01:30 UTC-5",
+          "type_round": "final",
+          "category": "333",
+          "description": null
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "333",
+    "222"
+  ],
+  "photo": "https://legioncubo.github.io/LegionCuboImages/tournaments/banner_legion_cubo_cup_2026.webp",
+  "created_by": "ElGranMontis233",
+  "start_date": "2026-09-26",
+  "end_date": "2026-09-27",
+  "type": "virtual",
+  "participants_count": 9,
+  "participants": [
+    {
+      "id": "AlonzoS67",
+      "name": "AlonzoS67",
+      "country_iso": "PE",
+      "lexo_configuration": {
+        "tertiary_color": "#31312E",
+        "secondary_color": "#F8BA16",
+        "primary_color": "#F8BA16"
+      }
+    },
+    {
+      "id": "Bruchimichi26",
+      "name": "Bruchimichi26",
+      "country_iso": "CR",
+      "lexo_configuration": {
+        "secondary_color": "#F8BA16",
+        "tertiary_color": "#31312E",
+        "primary_color": "#F8BA16"
+      }
+    },
+    {
+      "id": "ElGranMontis233",
+      "name": "ElGranMontis233",
+      "country_iso": "PE",
+      "lexo_configuration": {
+        "tertiary_color": "#307C98",
+        "background_card": "bg-lc",
+        "primary_color": "#A2A2A2",
+        "secondary_color": "#F8BA16"
+      }
+    },
+    {
+      "id": "Marsden3108",
+      "name": "Marsden3108",
+      "country_iso": "PE",
+      "lexo_configuration": {
+        "tertiary_color": "#31312E",
+        "secondary_color": "#F8BA16",
+        "primary_color": "#F8BA16"
+      }
+    },
+    {
+      "id": "Mathe458",
+      "name": "Mathe458",
+      "country_iso": "PE",
+      "lexo_configuration": {
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16",
+        "tertiary_color": "#31312E"
+      }
+    },
+    {
+      "id": "Matheo08",
+      "name": "Matheo08",
+      "country_iso": "PE",
+      "lexo_configuration": {
+        "tertiary_color": "#F69CAB",
+        "primary_color": "#F69CAB",
+        "secondary_color": "#FFFFFF"
+      }
+    },
+    {
+      "id": "mike2010",
+      "name": "mike2010",
+      "country_iso": "CO",
+      "lexo_configuration": {
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16",
+        "tertiary_color": "#31312E"
+      }
+    },
+    {
+      "id": "TomoriYozakura297",
+      "name": "TomoriYozakura297",
+      "country_iso": "AR",
+      "lexo_configuration": {
+        "tertiary_color": "#31312E",
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16"
+      }
+    },
+    {
+      "id": "XAmperex17",
+      "name": "XAmperex17",
+      "country_iso": "PE",
+      "lexo_configuration": {
+        "object": "2",
+        "secondary_color": "#FFFFFF",
+        "tertiary_color": "#C12328",
+        "primary_color": "#307C98"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "333",
+      "rounds": [
+        {
+          "id": "primera-ronda-3x3",
+          "id_round": 3,
+          "type_round": "first-round",
+          "state_round": "finished",
+          "participants_pass_round": 8,
+          "results": [
+            {
+              "pos": 1,
+              "id_participant": "Mathe458",
+              "name_participant": "Mathe458",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 9,
+              "average": 9.54,
+              "worst": 10.83,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 10.83,
+                  "penalty": null,
+                  "scr": "B' U2 R2 B' D2 F D2 F2 D2 B' U2 B' R' B' D' L' F2 U' B F' U"
+                },
+                {
+                  "id_time": 2,
+                  "time": 9,
+                  "penalty": null,
+                  "scr": "U2 B L F2 D2 R D R F' R' U2 R U2 L B2 R' F2 L2 F2 R"
+                },
+                {
+                  "id_time": 3,
+                  "time": 9.53,
+                  "penalty": null,
+                  "scr": "F L2 R2 B2 R2 B' D2 F L2 F' R' D2 B D' F L' U' F' R' U"
+                },
+                {
+                  "id_time": 4,
+                  "time": 9.82,
+                  "penalty": null,
+                  "scr": "U' R' U' L2 F' R2 F U2 F D2 F2 U2 R2 U' B F L D' F R2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 9.28,
+                  "penalty": null,
+                  "scr": "R B2 U R2 F2 U' R2 F2 D' U2 B2 D' R D2 F2 R' D R2 B L'"
+                }
+              ]
+            },
+            {
+              "pos": 2,
+              "id_participant": "Marsden3108",
+              "name_participant": "Marsden3108",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 9.24,
+              "average": 10.11,
+              "worst": 11.59,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 10.71,
+                  "penalty": null,
+                  "scr": "F' R F2 L2 D L2 D' L2 U2 F2 D2 U2 R2 F' L F2 D L' R'"
+                },
+                {
+                  "id_time": 2,
+                  "time": 9.24,
+                  "penalty": null,
+                  "scr": "R2 U L2 F2 U' B2 F2 U R2 U' B2 R' U2 B' U' F L U2 R2 D' U"
+                },
+                {
+                  "id_time": 3,
+                  "time": 11.59,
+                  "penalty": null,
+                  "scr": "F2 U2 R2 D2 F2 L2 U F2 L2 D' B2 R2 L' D L' U F' L B' D2 R2"
+                },
+                {
+                  "id_time": 4,
+                  "time": 10.16,
+                  "penalty": null,
+                  "scr": "F2 R2 B2 D2 L2 R' D2 R' D2 F2 U' F' R' D U2 L U B' F' R'"
+                },
+                {
+                  "id_time": 5,
+                  "time": 9.46,
+                  "penalty": null,
+                  "scr": "F2 R2 U2 B' F2 R2 D2 R2 D2 R2 B' R' U F D L D U2 B2 L' U'"
+                }
+              ]
+            },
+            {
+              "pos": 3,
+              "id_participant": "XAmperex17",
+              "name_participant": "XAmperex17",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 11.03,
+              "average": 13.52,
+              "worst": 15.23,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 14.11,
+                  "penalty": null,
+                  "scr": "B' U2 R2 B' D2 F D2 F2 D2 B' U2 B' R' B' D' L' F2 U' B F' U"
+                },
+                {
+                  "id_time": 2,
+                  "time": 13.15,
+                  "penalty": null,
+                  "scr": "U2 B L F2 D2 R D R F' R' U2 R U2 L B2 R' F2 L2 F2 R"
+                },
+                {
+                  "id_time": 3,
+                  "time": 15.23,
+                  "penalty": null,
+                  "scr": "F L2 R2 B2 R2 B' D2 F L2 F' R' D2 B D' F L' U' F' R' U"
+                },
+                {
+                  "id_time": 4,
+                  "time": 11.03,
+                  "penalty": null,
+                  "scr": "U' R' U' L2 F' R2 F U2 F D2 F2 U2 R2 U' B F L D' F R2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 13.29,
+                  "penalty": null,
+                  "scr": "R B2 U R2 F2 U' R2 F2 D' U2 B2 D' R D2 F2 R' D R2 B L'"
+                }
+              ]
+            },
+            {
+              "pos": 4,
+              "id_participant": "Matheo08",
+              "name_participant": "Matheo08",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 12.61,
+              "average": 15.15,
+              "worst": 23.98,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 23.98,
+                  "penalty": null,
+                  "scr": "F' R F2 L2 D L2 D' L2 U2 F2 D2 U2 R2 F' L F2 D L' R'"
+                },
+                {
+                  "id_time": 2,
+                  "time": 14.84,
+                  "penalty": null,
+                  "scr": "R2 U L2 F2 U' B2 F2 U R2 U' B2 R' U2 B' U' F L U2 R2 D' U"
+                },
+                {
+                  "id_time": 3,
+                  "time": 17.09,
+                  "penalty": null,
+                  "scr": "F2 U2 R2 D2 F2 L2 U F2 L2 D' B2 R2 L' D L' U F' L B' D2 R2"
+                },
+                {
+                  "id_time": 4,
+                  "time": 13.53,
+                  "penalty": null,
+                  "scr": "F2 R2 B2 D2 L2 R' D2 R' D2 F2 U' F' R' D U2 L U B' F' R'"
+                },
+                {
+                  "id_time": 5,
+                  "time": 12.61,
+                  "penalty": null,
+                  "scr": "F2 R2 U2 B' F2 R2 D2 R2 D2 R2 B' R' U F D L D U2 B2 L' U'"
+                }
+              ]
+            },
+            {
+              "pos": 5,
+              "id_participant": "Bruchimichi26",
+              "name_participant": "Bruchimichi26",
+              "country_iso": "CR",
+              "state_participant": "T",
+              "best": 16.54,
+              "average": 18.82,
+              "worst": 21.31,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 21.31,
+                  "penalty": null,
+                  "scr": "B' U2 R2 B' D2 F D2 F2 D2 B' U2 B' R' B' D' L' F2 U' B F' U"
+                },
+                {
+                  "id_time": 2,
+                  "time": 16.54,
+                  "penalty": null,
+                  "scr": "U2 B L F2 D2 R D R F' R' U2 R U2 L B2 R' F2 L2 F2 R"
+                },
+                {
+                  "id_time": 3,
+                  "time": 18.66,
+                  "penalty": null,
+                  "scr": "F L2 R2 B2 R2 B' D2 F L2 F' R' D2 B D' F L' U' F' R' U"
+                },
+                {
+                  "id_time": 4,
+                  "time": 18.61,
+                  "penalty": null,
+                  "scr": "U' R' U' L2 F' R2 F U2 F D2 F2 U2 R2 U' B F L D' F R2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 19.18,
+                  "penalty": null,
+                  "scr": "R B2 U R2 F2 U' R2 F2 D' U2 B2 D' R D2 F2 R' D R2 B L'"
+                }
+              ]
+            },
+            {
+              "pos": 6,
+              "id_participant": "TomoriYozakura297",
+              "name_participant": "TomoriYozakura297",
+              "country_iso": "AR",
+              "state_participant": "T",
+              "best": 17.07,
+              "average": 22.76,
+              "worst": 32.34,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 32.34,
+                  "penalty": null,
+                  "scr": "F' R F2 L2 D L2 D' L2 U2 F2 D2 U2 R2 F' L F2 D L' R'"
+                },
+                {
+                  "id_time": 2,
+                  "time": 17.07,
+                  "penalty": null,
+                  "scr": "R2 U L2 F2 U' B2 F2 U R2 U' B2 R' U2 B' U' F L U2 R2 D' U"
+                },
+                {
+                  "id_time": 3,
+                  "time": 23.02,
+                  "penalty": null,
+                  "scr": "F2 U2 R2 D2 F2 L2 U F2 L2 D' B2 R2 L' D L' U F' L B' D2 R2"
+                },
+                {
+                  "id_time": 4,
+                  "time": 20.47,
+                  "penalty": null,
+                  "scr": "F2 R2 B2 D2 L2 R' D2 R' D2 F2 U' F' R' D U2 L U B' F' R'"
+                },
+                {
+                  "id_time": 5,
+                  "time": 24.8,
+                  "penalty": null,
+                  "scr": "F2 R2 U2 B' F2 R2 D2 R2 D2 R2 B' R' U F D L D U2 B2 L' U'"
+                }
+              ]
+            },
+            {
+              "pos": 7,
+              "id_participant": "mike2010",
+              "name_participant": "mike2010",
+              "country_iso": "CO",
+              "state_participant": "T",
+              "best": 17.01,
+              "average": 22.95,
+              "worst": -1,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 2.31,
+                  "penalty": "DNF",
+                  "scr": "B' U2 R2 B' D2 F D2 F2 D2 B' U2 B' R' B' D' L' F2 U' B F' U"
+                },
+                {
+                  "id_time": 2,
+                  "time": 22.15,
+                  "penalty": null,
+                  "scr": "U2 B L F2 D2 R D R F' R' U2 R U2 L B2 R' F2 L2 F2 R"
+                },
+                {
+                  "id_time": 3,
+                  "time": 20.04,
+                  "penalty": null,
+                  "scr": "F L2 R2 B2 R2 B' D2 F L2 F' R' D2 B D' F L' U' F' R' U"
+                },
+                {
+                  "id_time": 4,
+                  "time": 26.67,
+                  "penalty": null,
+                  "scr": "U' R' U' L2 F' R2 F U2 F D2 F2 U2 R2 U' B F L D' F R2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 17.01,
+                  "penalty": null,
+                  "scr": "R B2 U R2 F2 U' R2 F2 D' U2 B2 D' R D2 F2 R' D R2 B L'"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ultima-ronda-3x3",
+          "id_round": 4,
+          "type_round": "final",
+          "state_round": "finished",
+          "participants_pass_round": 3,
+          "results": [
+            {
+              "pos": 1,
+              "id_participant": "Marsden3108",
+              "name_participant": "Marsden3108",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 8.08,
+              "average": 9.19,
+              "worst": 10.74,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 7.41,
+                  "penalty": "+2",
+                  "scr": "L F2 L U2 D R L' U' R2 L2 F' D2 F U2 R2 F2 B' R' L2"
+                },
+                {
+                  "id_time": 2,
+                  "time": 9.01,
+                  "penalty": null,
+                  "scr": "B2 F2 U2 B2 D R2 D' U R2 U' L2 F' D B D' L' B D U F2 R'"
+                },
+                {
+                  "id_time": 3,
+                  "time": 9.15,
+                  "penalty": null,
+                  "scr": "U F' U B' L' D B' D' F2 L2 U' B2 U R2 B2 U2 F2 U' R' B2"
+                },
+                {
+                  "id_time": 4,
+                  "time": 10.74,
+                  "penalty": null,
+                  "scr": "B U2 R' B U F2 U B' R' F2 D2 F2 B2 L U2 R2 F2 U2 R D2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 8.08,
+                  "penalty": null,
+                  "scr": "L2 U F2 L2 R2 D U2 L2 D' R D R' U2 F' U B' R' B' U"
+                }
+              ]
+            },
+            {
+              "pos": 2,
+              "id_participant": "Mathe458",
+              "name_participant": "Mathe458",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 9.15,
+              "average": 9.41,
+              "worst": 21.05,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 9.4,
+                  "penalty": null,
+                  "scr": "L F2 L U2 D R L' U' R2 L2 F' D2 F U2 R2 F2 B' R' L2"
+                },
+                {
+                  "id_time": 2,
+                  "time": 9.61,
+                  "penalty": null,
+                  "scr": "B2 F2 U2 B2 D R2 D' U R2 U' L2 F' D B D' L' B D U F2 R'"
+                },
+                {
+                  "id_time": 3,
+                  "time": 21.05,
+                  "penalty": null,
+                  "scr": "U F' U B' L' D B' D' F2 L2 U' B2 U R2 B2 U2 F2 U' R' B2"
+                },
+                {
+                  "id_time": 4,
+                  "time": 9.21,
+                  "penalty": null,
+                  "scr": "B U2 R' B U F2 U B' R' F2 D2 F2 B2 L U2 R2 F2 U2 R D2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 9.15,
+                  "penalty": null,
+                  "scr": "L2 U F2 L2 R2 D U2 L2 D' R D R' U2 F' U B' R' B' U"
+                }
+              ]
+            },
+            {
+              "pos": 3,
+              "id_participant": "XAmperex17",
+              "name_participant": "XAmperex17",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 10.39,
+              "average": 12.2,
+              "worst": 15.03,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 12.1,
+                  "penalty": null,
+                  "scr": "L F2 L U2 D R L' U' R2 L2 F' D2 F U2 R2 F2 B' R' L2"
+                },
+                {
+                  "id_time": 2,
+                  "time": 11.98,
+                  "penalty": null,
+                  "scr": "B2 F2 U2 B2 D R2 D' U R2 U' L2 F' D B D' L' B D U F2 R'"
+                },
+                {
+                  "id_time": 3,
+                  "time": 15.03,
+                  "penalty": null,
+                  "scr": "U F' U B' L' D B' D' F2 L2 U' B2 U R2 B2 U2 F2 U' R' B2"
+                },
+                {
+                  "id_time": 4,
+                  "time": 10.39,
+                  "penalty": null,
+                  "scr": "B U2 R' B U F2 U B' R' F2 D2 F2 B2 L U2 R2 F2 U2 R D2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 12.53,
+                  "penalty": null,
+                  "scr": "L2 U F2 L2 R2 D U2 L2 D' R D R' U2 F' U B' R' B' U"
+                }
+              ]
+            },
+            {
+              "pos": 4,
+              "id_participant": "Matheo08",
+              "name_participant": "Matheo08",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 10.74,
+              "average": 13.28,
+              "worst": 17.15,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 12.63,
+                  "penalty": null,
+                  "scr": "B2 R' B2 F2 D2 B2 R' D2 R' U2 R' U L U2 B2 L2 D B' D F"
+                },
+                {
+                  "id_time": 2,
+                  "time": 10.74,
+                  "penalty": null,
+                  "scr": "D2 F R F2 L2 B2 U2 L F2 R2 F2 D2 U2 R B' U R D F' U F2"
+                },
+                {
+                  "id_time": 3,
+                  "time": 12.98,
+                  "penalty": null,
+                  "scr": "R' F' L2 D' F2 U B2 D L2 U2 L2 B2 R D' B' D F D' R'"
+                },
+                {
+                  "id_time": 4,
+                  "time": 14.22,
+                  "penalty": null,
+                  "scr": "R2 B2 L2 U2 F2 U' B2 R2 D R2 U F' U F R F D' L R D"
+                },
+                {
+                  "id_time": 5,
+                  "time": 17.15,
+                  "penalty": null,
+                  "scr": "F U2 L U R' F' D F' R2 F2 D' B2 U2 F2 D B2 L2 U' L"
+                }
+              ]
+            },
+            {
+              "pos": 5,
+              "id_participant": "Bruchimichi26",
+              "name_participant": "Bruchimichi26",
+              "country_iso": "CR",
+              "state_participant": "T",
+              "best": 17.95,
+              "average": 20.18,
+              "worst": -1,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 21.3,
+                  "penalty": null,
+                  "scr": "L F2 L U2 D R L' U' R2 L2 F' D2 F U2 R2 F2 B' R' L2"
+                },
+                {
+                  "id_time": 2,
+                  "time": 20.09,
+                  "penalty": null,
+                  "scr": "B2 F2 U2 B2 D R2 D' U R2 U' L2 F' D B D' L' B D U F2 R'"
+                },
+                {
+                  "id_time": 3,
+                  "time": 19.14,
+                  "penalty": null,
+                  "scr": "U F' U B' L' D B' D' F2 L2 U' B2 U R2 B2 U2 F2 U' R' B2"
+                },
+                {
+                  "id_time": 4,
+                  "time": 17.95,
+                  "penalty": null,
+                  "scr": "B U2 R' B U F2 U B' R' F2 D2 F2 B2 L U2 R2 F2 U2 R D2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 0.51,
+                  "penalty": "DNF",
+                  "scr": "L2 U F2 L2 R2 D U2 L2 D' R D R' U2 F' U B' R' B' U"
+                }
+              ]
+            },
+            {
+              "pos": 6,
+              "id_participant": "mike2010",
+              "name_participant": "mike2010",
+              "country_iso": "CO",
+              "state_participant": "T",
+              "best": 16.67,
+              "average": 20.69,
+              "worst": 23.57,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 23.57,
+                  "penalty": null,
+                  "scr": "L F2 L U2 D R L' U' R2 L2 F' D2 F U2 R2 F2 B' R' L2"
+                },
+                {
+                  "id_time": 2,
+                  "time": 20.65,
+                  "penalty": null,
+                  "scr": "B2 F2 U2 B2 D R2 D' U R2 U' L2 F' D B D' L' B D U F2 R'"
+                },
+                {
+                  "id_time": 3,
+                  "time": 21.5,
+                  "penalty": null,
+                  "scr": "U F' U B' L' D B' D' F2 L2 U' B2 U R2 B2 U2 F2 U' R' B2"
+                },
+                {
+                  "id_time": 4,
+                  "time": 19.91,
+                  "penalty": null,
+                  "scr": "B U2 R' B U F2 U B' R' F2 D2 F2 B2 L U2 R2 F2 U2 R D2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 16.67,
+                  "penalty": null,
+                  "scr": "L2 U F2 L2 R2 D U2 L2 D' R D R' U2 F' U B' R' B' U"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "222",
+      "rounds": [
+        {
+          "id": "primera-ronda-2x2",
+          "id_round": 1,
+          "type_round": "first-round",
+          "state_round": "finished",
+          "participants_pass_round": 8,
+          "results": [
+            {
+              "pos": 1,
+              "id_participant": "AlonzoS67",
+              "name_participant": "AlonzoS67",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 0.94,
+              "average": 1.62,
+              "worst": -1,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 2.66,
+                  "penalty": "DNF",
+                  "scr": "U R' F2 R U R' U2 F R"
+                },
+                {
+                  "id_time": 2,
+                  "time": 1.53,
+                  "penalty": null,
+                  "scr": "U2 F2 U' F U' F' U F2 R' U2"
+                },
+                {
+                  "id_time": 3,
+                  "time": 1.82,
+                  "penalty": null,
+                  "scr": "R F' R' F' U' F2 U R' U'"
+                },
+                {
+                  "id_time": 4,
+                  "time": 0.94,
+                  "penalty": null,
+                  "scr": "U R F2 R U2 R U R U'"
+                },
+                {
+                  "id_time": 5,
+                  "time": 1.52,
+                  "penalty": null,
+                  "scr": "R2 U R' U2 R2 U2 R' F2 U'"
+                }
+              ]
+            },
+            {
+              "pos": 2,
+              "id_participant": "Marsden3108",
+              "name_participant": "Marsden3108",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 2.16,
+              "average": 2.82,
+              "worst": -1,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 2.43,
+                  "penalty": null,
+                  "scr": "U R' F2 R U R' U2 F R"
+                },
+                {
+                  "id_time": 2,
+                  "time": 3.39,
+                  "penalty": null,
+                  "scr": "U2 F2 U' F U' F' U F2 R' U2"
+                },
+                {
+                  "id_time": 3,
+                  "time": 2.16,
+                  "penalty": null,
+                  "scr": "R F' R' F' U' F2 U R' U'"
+                },
+                {
+                  "id_time": 4,
+                  "time": 2.63,
+                  "penalty": null,
+                  "scr": "U R F2 R U2 R U R U'"
+                },
+                {
+                  "id_time": 5,
+                  "time": 1.59,
+                  "penalty": "DNF",
+                  "scr": "R2 U R' U2 R2 U2 R' F2 U'"
+                }
+              ]
+            },
+            {
+              "pos": 3,
+              "id_participant": "ElGranMontis233",
+              "name_participant": "ElGranMontis233",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 4.26,
+              "average": 4.76,
+              "worst": 5.33,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 4.7,
+                  "penalty": null,
+                  "scr": "R2 U' F2 U' R2 F U R2 U2"
+                },
+                {
+                  "id_time": 2,
+                  "time": 5.33,
+                  "penalty": null,
+                  "scr": "R F' R' U' R U2 F' R U'"
+                },
+                {
+                  "id_time": 3,
+                  "time": 4.26,
+                  "penalty": null,
+                  "scr": "U R F R2 F2 R2 U2 F' R'"
+                },
+                {
+                  "id_time": 4,
+                  "time": 4.48,
+                  "penalty": null,
+                  "scr": "R' F2 R2 F2 R U R' F R'"
+                },
+                {
+                  "id_time": 5,
+                  "time": 5.09,
+                  "penalty": null,
+                  "scr": "F R U2 R' F2 R2 U2 F' R'"
+                }
+              ]
+            },
+            {
+              "pos": 4,
+              "id_participant": "XAmperex17",
+              "name_participant": "XAmperex17",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 3.94,
+              "average": 5.14,
+              "worst": 6.74,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 6.74,
+                  "penalty": null,
+                  "scr": "R2 U' F2 U' R2 F U R2 U2"
+                },
+                {
+                  "id_time": 2,
+                  "time": 6.39,
+                  "penalty": null,
+                  "scr": "R F' R' U' R U2 F' R U'"
+                },
+                {
+                  "id_time": 3,
+                  "time": 4.63,
+                  "penalty": null,
+                  "scr": "U R F R2 F2 R2 U2 F' R'"
+                },
+                {
+                  "id_time": 4,
+                  "time": 3.94,
+                  "penalty": null,
+                  "scr": "R' F2 R2 F2 R U R' F R'"
+                },
+                {
+                  "id_time": 5,
+                  "time": 4.4,
+                  "penalty": null,
+                  "scr": "F R U2 R' F2 R2 U2 F' R'"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ultima-ronda-2x2",
+          "id_round": 2,
+          "type_round": "final",
+          "state_round": "finished",
+          "participants_pass_round": 3,
+          "results": [
+            {
+              "pos": 1,
+              "id_participant": "AlonzoS67",
+              "name_participant": "AlonzoS67",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 1.28,
+              "average": 1.54,
+              "worst": 1.94,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 1.3599999999999999,
+                  "penalty": null,
+                  "scr": "R' F U' F2 U R U2 R2 U'"
+                },
+                {
+                  "id_time": 2,
+                  "time": 1.94,
+                  "penalty": null,
+                  "scr": "F R2 F' R' U F U' R U2"
+                },
+                {
+                  "id_time": 3,
+                  "time": 1.65,
+                  "penalty": null,
+                  "scr": "R U F U' F U2 R' F' U2"
+                },
+                {
+                  "id_time": 4,
+                  "time": 1.6,
+                  "penalty": null,
+                  "scr": "F R F R F2 R2 U R' U2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 1.28,
+                  "penalty": null,
+                  "scr": "F R U F2 R' F R U' R2"
+                }
+              ]
+            },
+            {
+              "pos": 2,
+              "id_participant": "Marsden3108",
+              "name_participant": "Marsden3108",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 2.02,
+              "average": 2.75,
+              "worst": 3.51,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 3.13,
+                  "penalty": null,
+                  "scr": "U' R F R' F2 U F' R' U'"
+                },
+                {
+                  "id_time": 2,
+                  "time": 3.51,
+                  "penalty": null,
+                  "scr": "R F R' U2 F2 U' F2 U2 R' U'"
+                },
+                {
+                  "id_time": 3,
+                  "time": 2.72,
+                  "penalty": null,
+                  "scr": "F2 R U R' F U F' R2 U'"
+                },
+                {
+                  "id_time": 4,
+                  "time": 2.02,
+                  "penalty": null,
+                  "scr": "U F2 R U' F2 R' U' F' R2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 2.41,
+                  "penalty": null,
+                  "scr": "U2 R' F2 R F2 R' U2 F U'"
+                }
+              ]
+            },
+            {
+              "pos": 3,
+              "id_participant": "ElGranMontis233",
+              "name_participant": "ElGranMontis233",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 2.81,
+              "average": 4.25,
+              "worst": 4.95,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 4.95,
+                  "penalty": null,
+                  "scr": "U' R F R' F2 U F' R' U'"
+                },
+                {
+                  "id_time": 2,
+                  "time": 3.98,
+                  "penalty": null,
+                  "scr": "R F R' U2 F2 U' F2 U2 R' U'"
+                },
+                {
+                  "id_time": 3,
+                  "time": 3.97,
+                  "penalty": null,
+                  "scr": "F2 R U R' F U F' R2 U'"
+                },
+                {
+                  "id_time": 4,
+                  "time": 2.81,
+                  "penalty": null,
+                  "scr": "U F2 R U' F2 R' U' F' R2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 4.8,
+                  "penalty": null,
+                  "scr": "U2 R' F2 R F2 R' U2 F U'"
+                }
+              ]
+            },
+            {
+              "pos": 4,
+              "id_participant": "XAmperex17",
+              "name_participant": "XAmperex17",
+              "country_iso": "PE",
+              "state_participant": "T",
+              "best": 3.65,
+              "average": 4.57,
+              "worst": 5.03,
+              "attempts": [
+                {
+                  "id_time": 1,
+                  "time": 4.22,
+                  "penalty": null,
+                  "scr": "R' F U' F2 U R U2 R2 U'"
+                },
+                {
+                  "id_time": 2,
+                  "time": 4.55,
+                  "penalty": null,
+                  "scr": "F R2 F' R' U F U' R U2"
+                },
+                {
+                  "id_time": 3,
+                  "time": 3.65,
+                  "penalty": null,
+                  "scr": "R U F U' F U2 R' F' U2"
+                },
+                {
+                  "id_time": 4,
+                  "time": 5.03,
+                  "penalty": null,
+                  "scr": "F R F R F2 R2 U R' U2"
+                },
+                {
+                  "id_time": 5,
+                  "time": 4.95,
+                  "penalty": null,
+                  "scr": "F R U F2 R' F R U' R2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

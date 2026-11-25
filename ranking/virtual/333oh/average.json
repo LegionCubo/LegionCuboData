@@ -1,0 +1,143 @@
+{
+  "type": "virtual",
+  "category": "333oh",
+  "kind": "average",
+  "count": 3,
+  "ranking": [
+    {
+      "pos": 1,
+      "id": "Mathe458",
+      "name": "Mathe458",
+      "country_iso": "PE",
+      "average": 15.71,
+      "tournament_id": "cuboween-2026-tercera-fecha",
+      "tournament_title": "Cuboween 2026 Tercera Fecha",
+      "start_date": "2026-10-24",
+      "round_id": "first-round-333oh",
+      "type_round": "first-round",
+      "lexo_configuration": {
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16",
+        "tertiary_color": "#31312E"
+      },
+      "attempts": [
+        {
+          "time": 11.28,
+          "penalty": null,
+          "scr": "U2 F2 L2 R' B2 F2 R' U2 L U R2 D B L2 F2 R D' F "
+        },
+        {
+          "time": 14.43,
+          "penalty": null,
+          "scr": "B L U2 F2 D B2 D' B2 D F2 D L2 D2 F2 L' B' F' U' F' U' L' "
+        },
+        {
+          "time": 21.33,
+          "penalty": null,
+          "scr": "D2 B' F' L2 F' L2 U2 F L2 F2 U' L D B L' U' L2 U' R' B "
+        },
+        {
+          "time": 16,
+          "penalty": null,
+          "scr": "B' U L' U2 L2 B2 L' F2 L' B2 R B2 U' R D' F2 L' F L' "
+        },
+        {
+          "time": 16.7,
+          "penalty": null,
+          "scr": "D' F B2 L2 R2 U' R2 D R2 U' B2 U' B2 F2 R F' L' D' B F R2 "
+        }
+      ]
+    },
+    {
+      "pos": 2,
+      "id": "Bruchimichi26",
+      "name": "Bruchimichi26",
+      "country_iso": "CR",
+      "average": 43.23,
+      "tournament_id": "cuboween-2026-tercera-fecha",
+      "tournament_title": "Cuboween 2026 Tercera Fecha",
+      "start_date": "2026-10-24",
+      "round_id": "final-333oh",
+      "type_round": "final",
+      "lexo_configuration": {
+        "background_card": "bg-lc-rivals",
+        "tertiary_color": "#C12328",
+        "secondary_color": "#C12328",
+        "suit": "zombie",
+        "primary_color": "#F8BA16"
+      },
+      "attempts": [
+        {
+          "time": 34.6,
+          "penalty": null,
+          "scr": "R' U2 R' U2 F2 D' R' U' F' R F2 R2 D2 L' D2 L' D2 F2 D2 R2 "
+        },
+        {
+          "time": 46.09,
+          "penalty": null,
+          "scr": "F2 D' F R B R F' R F2 B' U2 F' R2 L2 F2 D2 B "
+        },
+        {
+          "time": 40.93,
+          "penalty": null,
+          "scr": "U' R2 B' U2 B U2 F D2 B2 D2 U2 F' R' D' L U2 B L' R F "
+        },
+        {
+          "time": 49.77,
+          "penalty": null,
+          "scr": "R2 F2 L U2 B2 U2 L' R2 F2 D2 L' U B' L2 F D R2 B2 F' D2 "
+        },
+        {
+          "time": 42.66,
+          "penalty": null,
+          "scr": "L U' F R D B U2 L D2 L2 F2 U2 D' F2 R2 D F2 L2 F2 L2 "
+        }
+      ]
+    },
+    {
+      "pos": 3,
+      "id": "Diego12",
+      "name": "Diego12",
+      "country_iso": "MX",
+      "average": 67.36,
+      "tournament_id": "cuboween-2026-tercera-fecha",
+      "tournament_title": "Cuboween 2026 Tercera Fecha",
+      "start_date": "2026-10-24",
+      "round_id": "final-333oh",
+      "type_round": "final",
+      "lexo_configuration": {
+        "secondary_color": "#A2A2A2",
+        "background_card": "bg-lc-timer",
+        "primary_color": "#307C98",
+        "tertiary_color": "#31312E"
+      },
+      "attempts": [
+        {
+          "time": 45.89,
+          "penalty": null,
+          "scr": "U F' B R B L F D' L' R2 F L2 F' B2 D2 B U2 R2 U2 B2 U2 "
+        },
+        {
+          "time": 68.88,
+          "penalty": null,
+          "scr": "D F' U L D2 R U2 L2 D2 U2 F2 L U2 F R' F2 R D' U R2 "
+        },
+        {
+          "time": 65.62,
+          "penalty": null,
+          "scr": "R2 U2 F2 U' B D F' R B L2 F2 B2 U L2 D' B2 R2 F2 U2 B2 D' "
+        },
+        {
+          "time": 67.58,
+          "penalty": null,
+          "scr": "R2 F' L D F2 U L2 F L' F2 R U2 R F2 L' F2 R F2 U2 L' F' "
+        },
+        {
+          "time": 73.79,
+          "penalty": null,
+          "scr": "U B U L F R2 F2 U' L' B2 U2 B' L2 F' L2 U2 R2 F2 L2 B L2 "
+        }
+      ]
+    }
+  ]
+}

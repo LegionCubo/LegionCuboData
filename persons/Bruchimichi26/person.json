@@ -1,0 +1,548 @@
+{
+  "id": "Bruchimichi26",
+  "name": "Bruchimichi26",
+  "country_iso": "CR",
+  "competitions_count": 3,
+  "personal_records": {
+    "333": {
+      "single": {
+        "single": 15.62,
+        "tournament_id": "cuboween-2026-tercera-fecha",
+        "tournament_title": "Cuboween 2026 Tercera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-24",
+        "round_id": "final-333",
+        "lexo_configuration": {
+          "background_card": "bg-lc-rivals",
+          "tertiary_color": "#C12328",
+          "secondary_color": "#C12328",
+          "suit": "zombie",
+          "primary_color": "#F8BA16"
+        },
+        "attempt": {
+          "time": 15.62,
+          "penalty": null,
+          "scr": "F U2 F' L2 R2 F2 U2 R2 B R2 F' L2 R' U R' F2 R' D2 B' R' B2 "
+        }
+      },
+      "average": {
+        "average": 16.37,
+        "tournament_id": "cuboween-2026-tercera-fecha",
+        "tournament_title": "Cuboween 2026 Tercera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-24",
+        "round_id": "final-333",
+        "lexo_configuration": {
+          "background_card": "bg-lc-rivals",
+          "tertiary_color": "#C12328",
+          "secondary_color": "#C12328",
+          "suit": "zombie",
+          "primary_color": "#F8BA16"
+        },
+        "attempts": [
+          {
+            "time": 16.68,
+            "penalty": null,
+            "scr": "R D2 L' D2 F2 R D2 L U2 R2 U' L R F D' B' U' F' "
+          },
+          {
+            "time": 16.56,
+            "penalty": null,
+            "scr": "L2 B R2 U2 D' L' U D2 F' R2 D2 L B2 D2 B2 L D2 R B2 L B2 "
+          },
+          {
+            "time": 27.6,
+            "penalty": null,
+            "scr": "B2 R2 D' L F L U2 R' L2 U R2 D' F2 R2 L2 U D L2 U' "
+          },
+          {
+            "time": 15.62,
+            "penalty": null,
+            "scr": "F U2 F' L2 R2 F2 U2 R2 B R2 F' L2 R' U R' F2 R' D2 B' R' B2 "
+          },
+          {
+            "time": 15.87,
+            "penalty": null,
+            "scr": "B' L F2 D2 B2 U2 R' F2 L' B2 L' R2 B L' D B D R D' L2 "
+          }
+        ]
+      }
+    },
+    "222": {
+      "single": {
+        "single": 2.75,
+        "tournament_id": "cuboween-2026-primera-fecha",
+        "tournament_title": "Cuboween 2026 Primera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-10",
+        "round_id": "first-round-222",
+        "lexo_configuration": {
+          "tertiary_color": "#31312E",
+          "primary_color": "#F8BA16",
+          "secondary_color": "#F8BA16"
+        },
+        "attempt": {
+          "time": 0.75,
+          "penalty": "+2",
+          "scr": "U2 R' U' R2 U F' U2 F' U2"
+        }
+      },
+      "average": {
+        "average": 8.47,
+        "tournament_id": "cuboween-2026-primera-fecha",
+        "tournament_title": "Cuboween 2026 Primera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-10",
+        "round_id": "first-round-222",
+        "lexo_configuration": {
+          "tertiary_color": "#31312E",
+          "primary_color": "#F8BA16",
+          "secondary_color": "#F8BA16"
+        },
+        "attempts": [
+          {
+            "time": 36.48,
+            "penalty": null,
+            "scr": "R' F U2 R2 F2 R' U2 R U'"
+          },
+          {
+            "time": 0.75,
+            "penalty": "+2",
+            "scr": "U2 R' U' R2 U F' U2 F' U2"
+          },
+          {
+            "time": 8.14,
+            "penalty": null,
+            "scr": "R' F2 R U' R2 U' R F U"
+          },
+          {
+            "time": 12.15,
+            "penalty": null,
+            "scr": "R' F R2 F2 U R2 U' R' U'"
+          },
+          {
+            "time": 5.11,
+            "penalty": null,
+            "scr": "R2 U' R F2 R' U' R2 U2 R'"
+          }
+        ]
+      }
+    },
+    "333oh": {
+      "single": {
+        "single": 32.63,
+        "tournament_id": "cuboween-2026-tercera-fecha",
+        "tournament_title": "Cuboween 2026 Tercera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-24",
+        "round_id": "first-round-333oh",
+        "lexo_configuration": {
+          "background_card": "bg-lc-rivals",
+          "tertiary_color": "#C12328",
+          "secondary_color": "#C12328",
+          "suit": "zombie",
+          "primary_color": "#F8BA16"
+        },
+        "attempt": {
+          "time": 32.63,
+          "penalty": null,
+          "scr": "D' F B2 L2 R2 U' R2 D R2 U' B2 U' B2 F2 R F' L' D' B F R2 "
+        }
+      },
+      "average": {
+        "average": 43.23,
+        "tournament_id": "cuboween-2026-tercera-fecha",
+        "tournament_title": "Cuboween 2026 Tercera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-24",
+        "round_id": "final-333oh",
+        "lexo_configuration": {
+          "background_card": "bg-lc-rivals",
+          "tertiary_color": "#C12328",
+          "secondary_color": "#C12328",
+          "suit": "zombie",
+          "primary_color": "#F8BA16"
+        },
+        "attempts": [
+          {
+            "time": 34.6,
+            "penalty": null,
+            "scr": "R' U2 R' U2 F2 D' R' U' F' R F2 R2 D2 L' D2 L' D2 F2 D2 R2 "
+          },
+          {
+            "time": 46.09,
+            "penalty": null,
+            "scr": "F2 D' F R B R F' R F2 B' U2 F' R2 L2 F2 D2 B "
+          },
+          {
+            "time": 40.93,
+            "penalty": null,
+            "scr": "U' R2 B' U2 B U2 F D2 B2 D2 U2 F' R' D' L U2 B L' R F "
+          },
+          {
+            "time": 49.77,
+            "penalty": null,
+            "scr": "R2 F2 L U2 B2 U2 L' R2 F2 D2 L' U B' L2 F D R2 B2 F' D2 "
+          },
+          {
+            "time": 42.66,
+            "penalty": null,
+            "scr": "L U' F R D B U2 L D2 L2 F2 U2 D' F2 R2 D F2 L2 F2 L2 "
+          }
+        ]
+      }
+    }
+  },
+  "events": {
+    "333": [
+      {
+        "tournament_id": "cuboween-2026-tercera-fecha",
+        "tournament_title": "Cuboween 2026 Tercera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-24",
+        "lexo_configuration": {
+          "background_card": "bg-lc-rivals",
+          "tertiary_color": "#C12328",
+          "secondary_color": "#C12328",
+          "suit": "zombie",
+          "primary_color": "#F8BA16"
+        },
+        "rounds": [
+          {
+            "round_id": "first-round-333",
+            "id_round": 5,
+            "type_round": "first-round",
+            "pos": 3,
+            "best": 17.71,
+            "average": 17.8,
+            "worst": 21.41,
+            "attempts": [
+              {
+                "time": 21.41,
+                "penalty": null,
+                "scr": "U' L2 R2 D2 U' B2 R2 D' F' D2 U F' R D' F2 R D' B "
+              },
+              {
+                "time": 17.95,
+                "penalty": null,
+                "scr": "U' F U2 R2 U L F D2 L' F2 U2 R F2 D2 R B2 L' D2 F' D2 "
+              },
+              {
+                "time": 17.72,
+                "penalty": null,
+                "scr": "L2 F2 U2 R2 U' R2 F2 L2 D R2 U B' D' B' F' L' R2 U2 B2 L2 F' "
+              },
+              {
+                "time": 17.74,
+                "penalty": null,
+                "scr": "F2 U2 R F2 R2 D2 F2 U2 R2 D2 R D' B2 R' U' F L2 U' R D' "
+              },
+              {
+                "time": 17.71,
+                "penalty": null,
+                "scr": "F D' B' D' F' D B F2 U2 L' U2 F2 R' F2 D2 L' U2 L2 F2 B "
+              }
+            ]
+          },
+          {
+            "round_id": "final-333",
+            "id_round": 6,
+            "type_round": "final",
+            "pos": 3,
+            "best": 15.62,
+            "average": 16.37,
+            "worst": 27.6,
+            "attempts": [
+              {
+                "time": 16.68,
+                "penalty": null,
+                "scr": "R D2 L' D2 F2 R D2 L U2 R2 U' L R F D' B' U' F' "
+              },
+              {
+                "time": 16.56,
+                "penalty": null,
+                "scr": "L2 B R2 U2 D' L' U D2 F' R2 D2 L B2 D2 B2 L D2 R B2 L B2 "
+              },
+              {
+                "time": 27.6,
+                "penalty": null,
+                "scr": "B2 R2 D' L F L U2 R' L2 U R2 D' F2 R2 L2 U D L2 U' "
+              },
+              {
+                "time": 15.62,
+                "penalty": null,
+                "scr": "F U2 F' L2 R2 F2 U2 R2 B R2 F' L2 R' U R' F2 R' D2 B' R' B2 "
+              },
+              {
+                "time": 15.87,
+                "penalty": null,
+                "scr": "B' L F2 D2 B2 U2 R' F2 L' B2 L' R2 B L' D B D R D' L2 "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tournament_id": "legion-cubo-cup-2026",
+        "tournament_title": "Legion Cubo Cup 2026",
+        "tournament_type": "virtual",
+        "start_date": "2026-09-26",
+        "lexo_configuration": {
+          "secondary_color": "#F8BA16",
+          "tertiary_color": "#31312E",
+          "primary_color": "#F8BA16"
+        },
+        "rounds": [
+          {
+            "round_id": "primera-ronda-3x3",
+            "id_round": 3,
+            "type_round": "first-round",
+            "pos": 5,
+            "best": 16.54,
+            "average": 18.82,
+            "worst": 21.31,
+            "attempts": [
+              {
+                "time": 21.31,
+                "penalty": null,
+                "scr": "B' U2 R2 B' D2 F D2 F2 D2 B' U2 B' R' B' D' L' F2 U' B F' U"
+              },
+              {
+                "time": 16.54,
+                "penalty": null,
+                "scr": "U2 B L F2 D2 R D R F' R' U2 R U2 L B2 R' F2 L2 F2 R"
+              },
+              {
+                "time": 18.66,
+                "penalty": null,
+                "scr": "F L2 R2 B2 R2 B' D2 F L2 F' R' D2 B D' F L' U' F' R' U"
+              },
+              {
+                "time": 18.61,
+                "penalty": null,
+                "scr": "U' R' U' L2 F' R2 F U2 F D2 F2 U2 R2 U' B F L D' F R2"
+              },
+              {
+                "time": 19.18,
+                "penalty": null,
+                "scr": "R B2 U R2 F2 U' R2 F2 D' U2 B2 D' R D2 F2 R' D R2 B L'"
+              }
+            ]
+          },
+          {
+            "round_id": "ultima-ronda-3x3",
+            "id_round": 4,
+            "type_round": "final",
+            "pos": 5,
+            "best": 17.95,
+            "average": 20.18,
+            "worst": -1,
+            "attempts": [
+              {
+                "time": 21.3,
+                "penalty": null,
+                "scr": "L F2 L U2 D R L' U' R2 L2 F' D2 F U2 R2 F2 B' R' L2"
+              },
+              {
+                "time": 20.09,
+                "penalty": null,
+                "scr": "B2 F2 U2 B2 D R2 D' U R2 U' L2 F' D B D' L' B D U F2 R'"
+              },
+              {
+                "time": 19.14,
+                "penalty": null,
+                "scr": "U F' U B' L' D B' D' F2 L2 U' B2 U R2 B2 U2 F2 U' R' B2"
+              },
+              {
+                "time": 17.95,
+                "penalty": null,
+                "scr": "B U2 R' B U F2 U B' R' F2 D2 F2 B2 L U2 R2 F2 U2 R D2"
+              },
+              {
+                "time": 0.51,
+                "penalty": "DNF",
+                "scr": "L2 U F2 L2 R2 D U2 L2 D' R D R' U2 F' U B' R' B' U"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "222": [
+      {
+        "tournament_id": "cuboween-2026-primera-fecha",
+        "tournament_title": "Cuboween 2026 Primera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-10",
+        "lexo_configuration": {
+          "tertiary_color": "#31312E",
+          "primary_color": "#F8BA16",
+          "secondary_color": "#F8BA16"
+        },
+        "rounds": [
+          {
+            "round_id": "first-round-222",
+            "id_round": 1,
+            "type_round": "first-round",
+            "pos": 6,
+            "best": 2.75,
+            "average": 8.47,
+            "worst": 36.48,
+            "attempts": [
+              {
+                "time": 36.48,
+                "penalty": null,
+                "scr": "R' F U2 R2 F2 R' U2 R U'"
+              },
+              {
+                "time": 0.75,
+                "penalty": "+2",
+                "scr": "U2 R' U' R2 U F' U2 F' U2"
+              },
+              {
+                "time": 8.14,
+                "penalty": null,
+                "scr": "R' F2 R U' R2 U' R F U"
+              },
+              {
+                "time": 12.15,
+                "penalty": null,
+                "scr": "R' F R2 F2 U R2 U' R' U'"
+              },
+              {
+                "time": 5.11,
+                "penalty": null,
+                "scr": "R2 U' R F2 R' U' R2 U2 R'"
+              }
+            ]
+          },
+          {
+            "round_id": "final-222",
+            "id_round": 2,
+            "type_round": "final",
+            "pos": 5,
+            "best": 8.07,
+            "average": 10.07,
+            "worst": 18.15,
+            "attempts": [
+              {
+                "time": 8.07,
+                "penalty": null,
+                "scr": "R U' F' U2 F' U R' F2 U'"
+              },
+              {
+                "time": 18.15,
+                "penalty": null,
+                "scr": "R' F2 R' F R2 F' U R' F'"
+              },
+              {
+                "time": 8.32,
+                "penalty": null,
+                "scr": "F' R2 U R' U2 F U2 F' U"
+              },
+              {
+                "time": 10.74,
+                "penalty": null,
+                "scr": "R U F2 R2 U' F2 R F' R2"
+              },
+              {
+                "time": 11.14,
+                "penalty": null,
+                "scr": "F' U2 R2 U' R' F2 U2 R' F U2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "333oh": [
+      {
+        "tournament_id": "cuboween-2026-tercera-fecha",
+        "tournament_title": "Cuboween 2026 Tercera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-24",
+        "lexo_configuration": {
+          "background_card": "bg-lc-rivals",
+          "tertiary_color": "#C12328",
+          "secondary_color": "#C12328",
+          "suit": "zombie",
+          "primary_color": "#F8BA16"
+        },
+        "rounds": [
+          {
+            "round_id": "first-round-333oh",
+            "id_round": 1,
+            "type_round": "first-round",
+            "pos": 2,
+            "best": 32.63,
+            "average": 44.23,
+            "worst": 102.53,
+            "attempts": [
+              {
+                "time": 32.66,
+                "penalty": null,
+                "scr": "U2 F2 L2 R' B2 F2 R' U2 L U R2 D B L2 F2 R D' F "
+              },
+              {
+                "time": 45.19,
+                "penalty": null,
+                "scr": "B L U2 F2 D B2 D' B2 D F2 D L2 D2 F2 L' B' F' U' F' U' L' "
+              },
+              {
+                "time": 102.53,
+                "penalty": null,
+                "scr": "D2 B' F' L2 F' L2 U2 F L2 F2 U' L D B L' U' L2 U' R' B "
+              },
+              {
+                "time": 54.84,
+                "penalty": null,
+                "scr": "B' U L' U2 L2 B2 L' F2 L' B2 R B2 U' R D' F2 L' F L' "
+              },
+              {
+                "time": 32.63,
+                "penalty": null,
+                "scr": "D' F B2 L2 R2 U' R2 D R2 U' B2 U' B2 F2 R F' L' D' B F R2 "
+              }
+            ]
+          },
+          {
+            "round_id": "final-333oh",
+            "id_round": 2,
+            "type_round": "final",
+            "pos": 2,
+            "best": 34.6,
+            "average": 43.23,
+            "worst": 49.77,
+            "attempts": [
+              {
+                "time": 34.6,
+                "penalty": null,
+                "scr": "R' U2 R' U2 F2 D' R' U' F' R F2 R2 D2 L' D2 L' D2 F2 D2 R2 "
+              },
+              {
+                "time": 46.09,
+                "penalty": null,
+                "scr": "F2 D' F R B R F' R F2 B' U2 F' R2 L2 F2 D2 B "
+              },
+              {
+                "time": 40.93,
+                "penalty": null,
+                "scr": "U' R2 B' U2 B U2 F D2 B2 D2 U2 F' R' D' L U2 B L' R F "
+              },
+              {
+                "time": 49.77,
+                "penalty": null,
+                "scr": "R2 F2 L U2 B2 U2 L' R2 F2 D2 L' U B' L2 F D R2 B2 F' D2 "
+              },
+              {
+                "time": 42.66,
+                "penalty": null,
+                "scr": "L U' F R D B U2 L D2 L2 F2 U2 D' F2 R2 D F2 L2 F2 L2 "
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

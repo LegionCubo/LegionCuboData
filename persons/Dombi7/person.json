@@ -1,0 +1,121 @@
+{
+  "id": "Dombi7",
+  "name": "Dombi7",
+  "country_iso": "BO",
+  "competitions_count": 1,
+  "personal_records": {
+    "333": {
+      "single": {
+        "single": 11.22,
+        "tournament_id": "cuboween-2026-primera-fecha",
+        "tournament_title": "Cuboween 2026 Primera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-10",
+        "round_id": "first-round-333",
+        "lexo_configuration": {
+          "primary_color": "#F8BA16",
+          "tertiary_color": "#31312E",
+          "secondary_color": "#F8BA16"
+        },
+        "attempt": {
+          "time": 11.22,
+          "penalty": null,
+          "scr": "L U F U R' L' B' D' L D2 B R2 D2 F2 B R2 F' D2 R2 U2 F'"
+        }
+      },
+      "average": {
+        "average": 13.64,
+        "tournament_id": "cuboween-2026-primera-fecha",
+        "tournament_title": "Cuboween 2026 Primera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-10",
+        "round_id": "first-round-333",
+        "lexo_configuration": {
+          "primary_color": "#F8BA16",
+          "tertiary_color": "#31312E",
+          "secondary_color": "#F8BA16"
+        },
+        "attempts": [
+          {
+            "time": 17.28,
+            "penalty": null,
+            "scr": "F' U2 L2 D' R2 D B2 R2 F2 U R2 D2 B2 F' L' U' L2 R2 B D2"
+          },
+          {
+            "time": 14.38,
+            "penalty": null,
+            "scr": "R2 B' D2 R2 B' D2 F R2 F R2 U2 B2 L B L2 D2 L' R' U' R'"
+          },
+          {
+            "time": 12.77,
+            "penalty": null,
+            "scr": "D' B R' L D2 F L B2 U' R2 D B2 U D L2 B2 L2 D2 F U2 L"
+          },
+          {
+            "time": 13.76,
+            "penalty": null,
+            "scr": "F2 U2 B' R2 B D2 B L2 R2 B U2 R' B L2 F' L D F2 U' R'"
+          },
+          {
+            "time": 11.22,
+            "penalty": null,
+            "scr": "L U F U R' L' B' D' L D2 B R2 D2 F2 B R2 F' D2 R2 U2 F'"
+          }
+        ]
+      }
+    }
+  },
+  "events": {
+    "333": [
+      {
+        "tournament_id": "cuboween-2026-primera-fecha",
+        "tournament_title": "Cuboween 2026 Primera Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-10",
+        "lexo_configuration": {
+          "primary_color": "#F8BA16",
+          "tertiary_color": "#31312E",
+          "secondary_color": "#F8BA16"
+        },
+        "rounds": [
+          {
+            "round_id": "first-round-333",
+            "id_round": 3,
+            "type_round": "first-round",
+            "pos": 6,
+            "best": 11.22,
+            "average": 13.64,
+            "worst": 17.28,
+            "attempts": [
+              {
+                "time": 17.28,
+                "penalty": null,
+                "scr": "F' U2 L2 D' R2 D B2 R2 F2 U R2 D2 B2 F' L' U' L2 R2 B D2"
+              },
+              {
+                "time": 14.38,
+                "penalty": null,
+                "scr": "R2 B' D2 R2 B' D2 F R2 F R2 U2 B2 L B L2 D2 L' R' U' R'"
+              },
+              {
+                "time": 12.77,
+                "penalty": null,
+                "scr": "D' B R' L D2 F L B2 U' R2 D B2 U D L2 B2 L2 D2 F U2 L"
+              },
+              {
+                "time": 13.76,
+                "penalty": null,
+                "scr": "F2 U2 B' R2 B D2 B L2 R2 B U2 R' B L2 F' L D F2 U' R'"
+              },
+              {
+                "time": 11.22,
+                "penalty": null,
+                "scr": "L U F U R' L' B' D' L D2 B R2 D2 F2 B R2 F' D2 R2 U2 F'"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

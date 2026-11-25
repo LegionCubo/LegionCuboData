@@ -1,0 +1,77 @@
+{
+  "type": "virtual",
+  "category": "333oh",
+  "kind": "single",
+  "count": 3,
+  "ranking": [
+    {
+      "pos": 1,
+      "id": "Mathe458",
+      "name": "Mathe458",
+      "country_iso": "PE",
+      "single": 11.28,
+      "tournament_id": "cuboween-2026-tercera-fecha",
+      "tournament_title": "Cuboween 2026 Tercera Fecha",
+      "start_date": "2026-10-24",
+      "round_id": "first-round-333oh",
+      "type_round": "first-round",
+      "lexo_configuration": {
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16",
+        "tertiary_color": "#31312E"
+      },
+      "attempt": {
+        "time": 11.28,
+        "penalty": null,
+        "scr": "U2 F2 L2 R' B2 F2 R' U2 L U R2 D B L2 F2 R D' F "
+      }
+    },
+    {
+      "pos": 2,
+      "id": "Bruchimichi26",
+      "name": "Bruchimichi26",
+      "country_iso": "CR",
+      "single": 32.63,
+      "tournament_id": "cuboween-2026-tercera-fecha",
+      "tournament_title": "Cuboween 2026 Tercera Fecha",
+      "start_date": "2026-10-24",
+      "round_id": "first-round-333oh",
+      "type_round": "first-round",
+      "lexo_configuration": {
+        "background_card": "bg-lc-rivals",
+        "tertiary_color": "#C12328",
+        "secondary_color": "#C12328",
+        "suit": "zombie",
+        "primary_color": "#F8BA16"
+      },
+      "attempt": {
+        "time": 32.63,
+        "penalty": null,
+        "scr": "D' F B2 L2 R2 U' R2 D R2 U' B2 U' B2 F2 R F' L' D' B F R2 "
+      }
+    },
+    {
+      "pos": 3,
+      "id": "Diego12",
+      "name": "Diego12",
+      "country_iso": "MX",
+      "single": 45.89,
+      "tournament_id": "cuboween-2026-tercera-fecha",
+      "tournament_title": "Cuboween 2026 Tercera Fecha",
+      "start_date": "2026-10-24",
+      "round_id": "final-333oh",
+      "type_round": "final",
+      "lexo_configuration": {
+        "secondary_color": "#A2A2A2",
+        "background_card": "bg-lc-timer",
+        "primary_color": "#307C98",
+        "tertiary_color": "#31312E"
+      },
+      "attempt": {
+        "time": 45.89,
+        "penalty": null,
+        "scr": "U F' B R B L F D' L' R2 F L2 F' B2 D2 B U2 R2 U2 B2 U2 "
+      }
+    }
+  ]
+}

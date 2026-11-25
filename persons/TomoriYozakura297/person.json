@@ -1,0 +1,121 @@
+{
+  "id": "TomoriYozakura297",
+  "name": "TomoriYozakura297",
+  "country_iso": "AR",
+  "competitions_count": 1,
+  "personal_records": {
+    "333": {
+      "single": {
+        "single": 17.07,
+        "tournament_id": "legion-cubo-cup-2026",
+        "tournament_title": "Legion Cubo Cup 2026",
+        "tournament_type": "virtual",
+        "start_date": "2026-09-26",
+        "round_id": "primera-ronda-3x3",
+        "lexo_configuration": {
+          "tertiary_color": "#31312E",
+          "primary_color": "#F8BA16",
+          "secondary_color": "#F8BA16"
+        },
+        "attempt": {
+          "time": 17.07,
+          "penalty": null,
+          "scr": "R2 U L2 F2 U' B2 F2 U R2 U' B2 R' U2 B' U' F L U2 R2 D' U"
+        }
+      },
+      "average": {
+        "average": 22.76,
+        "tournament_id": "legion-cubo-cup-2026",
+        "tournament_title": "Legion Cubo Cup 2026",
+        "tournament_type": "virtual",
+        "start_date": "2026-09-26",
+        "round_id": "primera-ronda-3x3",
+        "lexo_configuration": {
+          "tertiary_color": "#31312E",
+          "primary_color": "#F8BA16",
+          "secondary_color": "#F8BA16"
+        },
+        "attempts": [
+          {
+            "time": 32.34,
+            "penalty": null,
+            "scr": "F' R F2 L2 D L2 D' L2 U2 F2 D2 U2 R2 F' L F2 D L' R'"
+          },
+          {
+            "time": 17.07,
+            "penalty": null,
+            "scr": "R2 U L2 F2 U' B2 F2 U R2 U' B2 R' U2 B' U' F L U2 R2 D' U"
+          },
+          {
+            "time": 23.02,
+            "penalty": null,
+            "scr": "F2 U2 R2 D2 F2 L2 U F2 L2 D' B2 R2 L' D L' U F' L B' D2 R2"
+          },
+          {
+            "time": 20.47,
+            "penalty": null,
+            "scr": "F2 R2 B2 D2 L2 R' D2 R' D2 F2 U' F' R' D U2 L U B' F' R'"
+          },
+          {
+            "time": 24.8,
+            "penalty": null,
+            "scr": "F2 R2 U2 B' F2 R2 D2 R2 D2 R2 B' R' U F D L D U2 B2 L' U'"
+          }
+        ]
+      }
+    }
+  },
+  "events": {
+    "333": [
+      {
+        "tournament_id": "legion-cubo-cup-2026",
+        "tournament_title": "Legion Cubo Cup 2026",
+        "tournament_type": "virtual",
+        "start_date": "2026-09-26",
+        "lexo_configuration": {
+          "tertiary_color": "#31312E",
+          "primary_color": "#F8BA16",
+          "secondary_color": "#F8BA16"
+        },
+        "rounds": [
+          {
+            "round_id": "primera-ronda-3x3",
+            "id_round": 3,
+            "type_round": "first-round",
+            "pos": 6,
+            "best": 17.07,
+            "average": 22.76,
+            "worst": 32.34,
+            "attempts": [
+              {
+                "time": 32.34,
+                "penalty": null,
+                "scr": "F' R F2 L2 D L2 D' L2 U2 F2 D2 U2 R2 F' L F2 D L' R'"
+              },
+              {
+                "time": 17.07,
+                "penalty": null,
+                "scr": "R2 U L2 F2 U' B2 F2 U R2 U' B2 R' U2 B' U' F L U2 R2 D' U"
+              },
+              {
+                "time": 23.02,
+                "penalty": null,
+                "scr": "F2 U2 R2 D2 F2 L2 U F2 L2 D' B2 R2 L' D L' U F' L B' D2 R2"
+              },
+              {
+                "time": 20.47,
+                "penalty": null,
+                "scr": "F2 R2 B2 D2 L2 R' D2 R' D2 F2 U' F' R' D U2 L U B' F' R'"
+              },
+              {
+                "time": 24.8,
+                "penalty": null,
+                "scr": "F2 R2 U2 B' F2 R2 D2 R2 D2 R2 B' R' U F D L D U2 B2 L' U'"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

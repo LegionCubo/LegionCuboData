@@ -1,0 +1,6 @@
+/__pycache__
+/data
+
+build_persons.py
+build_rankings.py
+build_tournament.py

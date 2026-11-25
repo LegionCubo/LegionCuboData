@@ -1,0 +1,322 @@
+{
+  "type": "virtual",
+  "category": "333",
+  "kind": "single",
+  "count": 14,
+  "ranking": [
+    {
+      "pos": 1,
+      "id": "SdarcLeo344",
+      "name": "SdarcLeo344",
+      "country_iso": "BO",
+      "single": 7.3,
+      "tournament_id": "cuboween-2026-primera-fecha",
+      "tournament_title": "Cuboween 2026 Primera Fecha",
+      "start_date": "2026-10-10",
+      "round_id": "final-333",
+      "type_round": "final",
+      "lexo_configuration": {
+        "secondary_color": "#A2A2A2",
+        "primary_color": "#A2A2A2",
+        "background_card": "bg-lc-rivals",
+        "tertiary_color": "#31312E",
+        "object": "2"
+      },
+      "attempt": {
+        "time": 7.3,
+        "penalty": null,
+        "scr": "L2 D2 U2 B2 F U2 F L2 F L2 R2 D' R' F U2 B' R2 D' U F"
+      }
+    },
+    {
+      "pos": 2,
+      "id": "Mathe458",
+      "name": "Mathe458",
+      "country_iso": "PE",
+      "single": 7.56,
+      "tournament_id": "cuboween-2026-tercera-fecha",
+      "tournament_title": "Cuboween 2026 Tercera Fecha",
+      "start_date": "2026-10-24",
+      "round_id": "final-333",
+      "type_round": "final",
+      "lexo_configuration": {
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16",
+        "tertiary_color": "#31312E"
+      },
+      "attempt": {
+        "time": 7.56,
+        "penalty": null,
+        "scr": "U L' D B2 D' R L2 B R F2 L2 U2 R2 L2 F R2 U2 F U2 B2 U' "
+      }
+    },
+    {
+      "pos": 3,
+      "id": "Marsden3108",
+      "name": "Marsden3108",
+      "country_iso": "PE",
+      "single": 7.8,
+      "tournament_id": "cuboween-2026-segunda-fecha",
+      "tournament_title": "Cuboween 2026 Segunda Fecha",
+      "start_date": "2026-10-17",
+      "round_id": "final-333",
+      "type_round": "final",
+      "lexo_configuration": {
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16",
+        "tertiary_color": "#31312E"
+      },
+      "attempt": {
+        "time": 7.8,
+        "penalty": null,
+        "scr": "U2 B' R' U2 B2 F2 R D2 R2 F2 D2 F2 D U' R' U B2 D' L'"
+      }
+    },
+    {
+      "pos": 4,
+      "id": "ElGranMontis233",
+      "name": "ElGranMontis233",
+      "country_iso": "PE",
+      "single": 8.81,
+      "tournament_id": "cuboween-2026-primera-fecha",
+      "tournament_title": "Cuboween 2026 Primera Fecha",
+      "start_date": "2026-10-10",
+      "round_id": "final-333",
+      "type_round": "final",
+      "lexo_configuration": {
+        "tertiary_color": "#307C98",
+        "background_card": "bg-lc",
+        "primary_color": "#A2A2A2",
+        "secondary_color": "#F8BA16"
+      },
+      "attempt": {
+        "time": 8.81,
+        "penalty": null,
+        "scr": "L2 D2 U2 B2 F U2 F L2 F L2 R2 D' R' F U2 B' R2 D' U F"
+      }
+    },
+    {
+      "pos": 5,
+      "id": "Adrian640",
+      "name": "Adrian640",
+      "country_iso": "BO",
+      "single": 9.3,
+      "tournament_id": "cuboween-2026-segunda-fecha",
+      "tournament_title": "Cuboween 2026 Segunda Fecha",
+      "start_date": "2026-10-17",
+      "round_id": "final-333",
+      "type_round": "final",
+      "lexo_configuration": {
+        "secondary_color": "#F8BA16",
+        "primary_color": "#F8BA16",
+        "tertiary_color": "#31312E"
+      },
+      "attempt": {
+        "time": 9.3,
+        "penalty": null,
+        "scr": "U2 D F R U R' F U L2 F2 U' F2 D2 R2 L2 D' F2 B2 U' B"
+      }
+    },
+    {
+      "pos": 6,
+      "id": "KevinValverde76",
+      "name": "KevinValverde76",
+      "country_iso": "BO",
+      "single": 9.32,
+      "tournament_id": "cuboween-2026-primera-fecha",
+      "tournament_title": "Cuboween 2026 Primera Fecha",
+      "start_date": "2026-10-10",
+      "round_id": "first-round-333",
+      "type_round": "first-round",
+      "lexo_configuration": {
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16",
+        "tertiary_color": "#31312E"
+      },
+      "attempt": {
+        "time": 9.32,
+        "penalty": null,
+        "scr": "F' U2 L2 D' R2 D B2 R2 F2 U R2 D2 B2 F' L' U' L2 R2 B D2"
+      }
+    },
+    {
+      "pos": 7,
+      "id": "XAmperex17",
+      "name": "XAmperex17",
+      "country_iso": "PE",
+      "single": 10.06,
+      "tournament_id": "cuboween-2026-primera-fecha",
+      "tournament_title": "Cuboween 2026 Primera Fecha",
+      "start_date": "2026-10-10",
+      "round_id": "first-round-333",
+      "type_round": "first-round",
+      "lexo_configuration": {
+        "tertiary_color": "#C12328",
+        "secondary_color": "#FFFFFF",
+        "primary_color": "#307C98",
+        "object": "2"
+      },
+      "attempt": {
+        "time": 10.06,
+        "penalty": null,
+        "scr": "D' B R' L D2 F L B2 U' R2 D B2 U D L2 B2 L2 D2 F U2 L"
+      }
+    },
+    {
+      "pos": 8,
+      "id": "1axnplus1",
+      "name": "1axnplus1",
+      "country_iso": "BO",
+      "single": 10.74,
+      "tournament_id": "cuboween-2026-primera-fecha",
+      "tournament_title": "Cuboween 2026 Primera Fecha",
+      "start_date": "2026-10-10",
+      "round_id": "final-333",
+      "type_round": "final",
+      "lexo_configuration": {
+        "tertiary_color": "#31312E",
+        "secondary_color": "#F8BA16",
+        "primary_color": "#F8BA16"
+      },
+      "attempt": {
+        "time": 10.74,
+        "penalty": null,
+        "scr": "F2 U' R' F2 L2 B2 F2 D U R2 D B2 D' L F' R2 B F2 R' F2"
+      }
+    },
+    {
+      "pos": 8,
+      "id": "Matheo08",
+      "name": "Matheo08",
+      "country_iso": "PE",
+      "single": 10.74,
+      "tournament_id": "legion-cubo-cup-2026",
+      "tournament_title": "Legion Cubo Cup 2026",
+      "start_date": "2026-09-26",
+      "round_id": "ultima-ronda-3x3",
+      "type_round": "final",
+      "lexo_configuration": {
+        "tertiary_color": "#F69CAB",
+        "primary_color": "#F69CAB",
+        "secondary_color": "#FFFFFF"
+      },
+      "attempt": {
+        "time": 10.74,
+        "penalty": null,
+        "scr": "D2 F R F2 L2 B2 U2 L F2 R2 F2 D2 U2 R B' U R D F' U F2"
+      }
+    },
+    {
+      "pos": 10,
+      "id": "Dombi7",
+      "name": "Dombi7",
+      "country_iso": "BO",
+      "single": 11.22,
+      "tournament_id": "cuboween-2026-primera-fecha",
+      "tournament_title": "Cuboween 2026 Primera Fecha",
+      "start_date": "2026-10-10",
+      "round_id": "first-round-333",
+      "type_round": "first-round",
+      "lexo_configuration": {
+        "primary_color": "#F8BA16",
+        "tertiary_color": "#31312E",
+        "secondary_color": "#F8BA16"
+      },
+      "attempt": {
+        "time": 11.22,
+        "penalty": null,
+        "scr": "L U F U R' L' B' D' L D2 B R2 D2 F2 B R2 F' D2 R2 U2 F'"
+      }
+    },
+    {
+      "pos": 11,
+      "id": "Bruchimichi26",
+      "name": "Bruchimichi26",
+      "country_iso": "CR",
+      "single": 15.62,
+      "tournament_id": "cuboween-2026-tercera-fecha",
+      "tournament_title": "Cuboween 2026 Tercera Fecha",
+      "start_date": "2026-10-24",
+      "round_id": "final-333",
+      "type_round": "final",
+      "lexo_configuration": {
+        "background_card": "bg-lc-rivals",
+        "tertiary_color": "#C12328",
+        "secondary_color": "#C12328",
+        "suit": "zombie",
+        "primary_color": "#F8BA16"
+      },
+      "attempt": {
+        "time": 15.62,
+        "penalty": null,
+        "scr": "F U2 F' L2 R2 F2 U2 R2 B R2 F' L2 R' U R' F2 R' D2 B' R' B2 "
+      }
+    },
+    {
+      "pos": 12,
+      "id": "Bocchitak0",
+      "name": "Bocchitak0",
+      "country_iso": "MX",
+      "single": 16.66,
+      "tournament_id": "cuboween-2026-primera-fecha",
+      "tournament_title": "Cuboween 2026 Primera Fecha",
+      "start_date": "2026-10-10",
+      "round_id": "final-333",
+      "type_round": "final",
+      "lexo_configuration": {
+        "tertiary_color": "#31312E",
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16"
+      },
+      "attempt": {
+        "time": 16.66,
+        "penalty": null,
+        "scr": "L U2 R' D2 R D2 R B2 R B2 R B U R' F L2 D2 R D' R'"
+      }
+    },
+    {
+      "pos": 13,
+      "id": "mike2010",
+      "name": "mike2010",
+      "country_iso": "CO",
+      "single": 16.67,
+      "tournament_id": "legion-cubo-cup-2026",
+      "tournament_title": "Legion Cubo Cup 2026",
+      "start_date": "2026-09-26",
+      "round_id": "ultima-ronda-3x3",
+      "type_round": "final",
+      "lexo_configuration": {
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16",
+        "tertiary_color": "#31312E"
+      },
+      "attempt": {
+        "time": 16.67,
+        "penalty": null,
+        "scr": "L2 U F2 L2 R2 D U2 L2 D' R D R' U2 F' U B' R' B' U"
+      }
+    },
+    {
+      "pos": 14,
+      "id": "TomoriYozakura297",
+      "name": "TomoriYozakura297",
+      "country_iso": "AR",
+      "single": 17.07,
+      "tournament_id": "legion-cubo-cup-2026",
+      "tournament_title": "Legion Cubo Cup 2026",
+      "start_date": "2026-09-26",
+      "round_id": "primera-ronda-3x3",
+      "type_round": "first-round",
+      "lexo_configuration": {
+        "tertiary_color": "#31312E",
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16"
+      },
+      "attempt": {
+        "time": 17.07,
+        "penalty": null,
+        "scr": "R2 U L2 F2 U' B2 F2 U R2 U' B2 R' U2 B' U' F L U2 R2 D' U"
+      }
+    }
+  ]
+}

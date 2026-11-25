@@ -1,0 +1,206 @@
+{
+  "id": "AlonzoS67",
+  "name": "AlonzoS67",
+  "country_iso": "PE",
+  "competitions_count": 2,
+  "personal_records": {
+    "222": {
+      "single": {
+        "single": 0.94,
+        "tournament_id": "legion-cubo-cup-2026",
+        "tournament_title": "Legion Cubo Cup 2026",
+        "tournament_type": "virtual",
+        "start_date": "2026-09-26",
+        "round_id": "primera-ronda-2x2",
+        "lexo_configuration": {
+          "tertiary_color": "#31312E",
+          "secondary_color": "#F8BA16",
+          "primary_color": "#F8BA16"
+        },
+        "attempt": {
+          "time": 0.94,
+          "penalty": null,
+          "scr": "U R F2 R U2 R U R U'"
+        }
+      },
+      "average": {
+        "average": 1.54,
+        "tournament_id": "legion-cubo-cup-2026",
+        "tournament_title": "Legion Cubo Cup 2026",
+        "tournament_type": "virtual",
+        "start_date": "2026-09-26",
+        "round_id": "ultima-ronda-2x2",
+        "lexo_configuration": {
+          "tertiary_color": "#31312E",
+          "secondary_color": "#F8BA16",
+          "primary_color": "#F8BA16"
+        },
+        "attempts": [
+          {
+            "time": 1.3599999999999999,
+            "penalty": null,
+            "scr": "R' F U' F2 U R U2 R2 U'"
+          },
+          {
+            "time": 1.94,
+            "penalty": null,
+            "scr": "F R2 F' R' U F U' R U2"
+          },
+          {
+            "time": 1.65,
+            "penalty": null,
+            "scr": "R U F U' F U2 R' F' U2"
+          },
+          {
+            "time": 1.6,
+            "penalty": null,
+            "scr": "F R F R F2 R2 U R' U2"
+          },
+          {
+            "time": 1.28,
+            "penalty": null,
+            "scr": "F R U F2 R' F R U' R2"
+          }
+        ]
+      }
+    }
+  },
+  "events": {
+    "222": [
+      {
+        "tournament_id": "cuboween-2026-segunda-fecha",
+        "tournament_title": "Cuboween 2026 Segunda Fecha",
+        "tournament_type": "virtual",
+        "start_date": "2026-10-17",
+        "lexo_configuration": {
+          "tertiary_color": "#31312E",
+          "secondary_color": "#F8BA16",
+          "primary_color": "#F8BA16"
+        },
+        "rounds": [
+          {
+            "round_id": "first-round-222",
+            "id_round": 1,
+            "type_round": "first-round",
+            "pos": 1,
+            "best": 1.28,
+            "average": 1.93,
+            "worst": 4.07,
+            "attempts": [
+              {
+                "time": 4.07,
+                "penalty": null,
+                "scr": "F2 R2 F U' F2 U' R U' F2"
+              },
+              {
+                "time": 1.38,
+                "penalty": null,
+                "scr": "F R' F' R2 U2 F' U' R2 F2 U'"
+              },
+              {
+                "time": 1.28,
+                "penalty": null,
+                "scr": "R U F' U R' F U F U"
+              },
+              {
+                "time": 1.97,
+                "penalty": null,
+                "scr": "F2 R2 U F' R' U2 R' F2 R2"
+              },
+              {
+                "time": 2.45,
+                "penalty": null,
+                "scr": "U' F U' F2 U' R F2 U' R2 U'"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tournament_id": "legion-cubo-cup-2026",
+        "tournament_title": "Legion Cubo Cup 2026",
+        "tournament_type": "virtual",
+        "start_date": "2026-09-26",
+        "lexo_configuration": {
+          "tertiary_color": "#31312E",
+          "secondary_color": "#F8BA16",
+          "primary_color": "#F8BA16"
+        },
+        "rounds": [
+          {
+            "round_id": "primera-ronda-2x2",
+            "id_round": 1,
+            "type_round": "first-round",
+            "pos": 1,
+            "best": 0.94,
+            "average": 1.62,
+            "worst": -1,
+            "attempts": [
+              {
+                "time": 2.66,
+                "penalty": "DNF",
+                "scr": "U R' F2 R U R' U2 F R"
+              },
+              {
+                "time": 1.53,
+                "penalty": null,
+                "scr": "U2 F2 U' F U' F' U F2 R' U2"
+              },
+              {
+                "time": 1.82,
+                "penalty": null,
+                "scr": "R F' R' F' U' F2 U R' U'"
+              },
+              {
+                "time": 0.94,
+                "penalty": null,
+                "scr": "U R F2 R U2 R U R U'"
+              },
+              {
+                "time": 1.52,
+                "penalty": null,
+                "scr": "R2 U R' U2 R2 U2 R' F2 U'"
+              }
+            ]
+          },
+          {
+            "round_id": "ultima-ronda-2x2",
+            "id_round": 2,
+            "type_round": "final",
+            "pos": 1,
+            "best": 1.28,
+            "average": 1.54,
+            "worst": 1.94,
+            "attempts": [
+              {
+                "time": 1.3599999999999999,
+                "penalty": null,
+                "scr": "R' F U' F2 U R U2 R2 U'"
+              },
+              {
+                "time": 1.94,
+                "penalty": null,
+                "scr": "F R2 F' R' U F U' R U2"
+              },
+              {
+                "time": 1.65,
+                "penalty": null,
+                "scr": "R U F U' F U2 R' F' U2"
+              },
+              {
+                "time": 1.6,
+                "penalty": null,
+                "scr": "F R F R F2 R2 U R' U2"
+              },
+              {
+                "time": 1.28,
+                "penalty": null,
+                "scr": "F R U F2 R' F R U' R2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
