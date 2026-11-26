@@ -38,6 +38,8 @@
           "primary_color": "#A2A2A2",
           "secondary_color": "#F8BA16"
         },
+        "best_index": 4,
+        "worst_index": 1,
         "attempts": [
           {
             "time": 4.95,
@@ -100,6 +102,8 @@
           "primary_color": "#A2A2A2",
           "secondary_color": "#F8BA16"
         },
+        "best_index": 1,
+        "worst_index": 5,
         "attempts": [
           {
             "time": 8.81,

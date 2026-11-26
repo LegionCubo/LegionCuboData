@@ -20,6 +20,8 @@
         "secondary_color": "#F8BA16",
         "primary_color": "#F8BA16"
       },
+      "best_index": 5,
+      "worst_index": 2,
       "attempts": [
         {
           "time": 1.3599999999999999,
@@ -64,6 +66,8 @@
         "secondary_color": "#F8BA16",
         "tertiary_color": "#31312E"
       },
+      "best_index": 5,
+      "worst_index": 1,
       "attempts": [
         {
           "time": 2.52,
@@ -108,6 +112,8 @@
         "secondary_color": "#F8BA16",
         "primary_color": "#F8BA16"
       },
+      "best_index": 4,
+      "worst_index": 2,
       "attempts": [
         {
           "time": 3.13,
@@ -152,6 +158,8 @@
         "tertiary_color": "#F69CAB",
         "secondary_color": "#F8BA16"
       },
+      "best_index": 4,
+      "worst_index": 3,
       "attempts": [
         {
           "time": 2.74,
@@ -197,6 +205,8 @@
         "primary_color": "#307C98",
         "object": "2"
       },
+      "best_index": 3,
+      "worst_index": 2,
       "attempts": [
         {
           "time": 3.7,
@@ -242,6 +252,8 @@
         "primary_color": "#A2A2A2",
         "secondary_color": "#F8BA16"
       },
+      "best_index": 4,
+      "worst_index": 1,
       "attempts": [
         {
           "time": 4.95,
@@ -286,6 +298,8 @@
         "primary_color": "#F8BA16",
         "tertiary_color": "#31312E"
       },
+      "best_index": 3,
+      "worst_index": 1,
       "attempts": [
         {
           "time": 5.57,
@@ -332,6 +346,8 @@
         "tertiary_color": "#31312E",
         "object": "2"
       },
+      "best_index": 1,
+      "worst_index": 3,
       "attempts": [
         {
           "time": 2.15,
@@ -378,6 +394,8 @@
         "object": "2",
         "tertiary_color": "#31312E"
       },
+      "best_index": 3,
+      "worst_index": 1,
       "attempts": [
         {
           "time": 6.42,
@@ -422,6 +440,8 @@
         "primary_color": "#F8BA16",
         "secondary_color": "#F8BA16"
       },
+      "best_index": 2,
+      "worst_index": 1,
       "attempts": [
         {
           "time": 36.48,

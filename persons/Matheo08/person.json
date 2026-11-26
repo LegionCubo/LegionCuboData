@@ -35,6 +35,8 @@
           "primary_color": "#F69CAB",
           "secondary_color": "#FFFFFF"
         },
+        "best_index": 2,
+        "worst_index": 5,
         "attempts": [
           {
             "time": 12.63,

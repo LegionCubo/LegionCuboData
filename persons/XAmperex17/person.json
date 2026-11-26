@@ -37,6 +37,8 @@
           "tertiary_color": "#C12328",
           "primary_color": "#307C98"
         },
+        "best_index": 4,
+        "worst_index": 3,
         "attempts": [
           {
             "time": 12.1,
@@ -100,6 +102,8 @@
           "primary_color": "#307C98",
           "object": "2"
         },
+        "best_index": 3,
+        "worst_index": 2,
         "attempts": [
           {
             "time": 3.7,

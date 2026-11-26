@@ -4,3 +4,6 @@
 build_persons.py
 build_rankings.py
 build_tournament.py
+build_information.py
+
+package.json

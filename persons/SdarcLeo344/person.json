@@ -39,6 +39,8 @@
           "tertiary_color": "#31312E",
           "object": "2"
         },
+        "best_index": 1,
+        "worst_index": 3,
         "attempts": [
           {
             "time": 7.3,
@@ -103,6 +105,8 @@
           "tertiary_color": "#31312E",
           "object": "2"
         },
+        "best_index": 1,
+        "worst_index": 3,
         "attempts": [
           {
             "time": 2.15,

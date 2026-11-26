@@ -37,6 +37,8 @@
           "primary_color": "#307C98",
           "tertiary_color": "#31312E"
         },
+        "best_index": 1,
+        "worst_index": 5,
         "attempts": [
           {
             "time": 45.89,
