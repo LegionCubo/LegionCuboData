@@ -13,7 +13,7 @@ flowchart LR
     end
 
     D1 & D2 & D3 --> S1([build_tournament.py])
-    S1 --> T["tournaments/virtual/&lt;id&gt;/tournament.json"]
+    S1 --> T["tournaments/&lt;tipo&gt;/&lt;id&gt;/tournament.json"]
 
     T --> S2([build_persons.py])
     S2 --> P["persons/&lt;id&gt;/person.json"]
@@ -21,20 +21,31 @@ flowchart LR
     P --> S3([build_rankings.py])
     S3 --> R1["ranking/virtual/&lt;cat&gt;/single.json"]
     S3 --> R2["ranking/virtual/&lt;cat&gt;/average.json"]
+
+    T --> S4([build_information.py])
+    S4 --> I["information/information.json"]
 ```
 
 Cada script usa la salida del anterior, así que **siempre se ejecutan en este orden**:
 
 | Paso | Comando | Lee | Escribe |
 |---|---|---|---|
-| 1 | `py build_tournament.py` | `data/*.json` (el torneo que esté en `data/`) | `tournaments/virtual/<id>/tournament.json` |
+| 1 | `py build_tournament.py` | `data/*.json` (el torneo que esté en `data/`) | `tournaments/<tipo>/<id>/tournament.json` |
 | 2 | `py build_persons.py` | **todos** los `tournaments/*/*/tournament.json` | `persons/<id>/person.json` |
 | 3 | `py build_rankings.py` | **todos** los `persons/*/person.json` | `ranking/<tipo>/<cat>/single.json` y `average.json` |
+| 4 | `py build_information.py` | **todos** los `tournaments/*/*/tournament.json` | `information/information.json` |
 
 ### Agregar un torneo nuevo
 
 1. Reemplazar los 3 archivos de `data/` con los del nuevo torneo.
-2. Ejecutar los 3 scripts en orden.
+2. Ejecutar los 3 scripts en orden. `build_tournament.py` muestra un menú para elegir el tipo de torneo:
+   ```
+   Selecciona el tipo de torneo:
+     1. virtual  (por defecto)
+     2. presencial
+   Opción [1-2, Enter = virtual]:
+   ```
+   Para saltarse el menú: `py build_tournament.py --type virtual`. Los tipos disponibles se editan en `TOURNAMENT_TYPES` dentro del script.
 3. Subir los cambios a GitHub.
 
 Los torneos anteriores se mantienen en `tournaments/`, por lo que `persons/` y `ranking/` siempre se recalculan con el historial completo.
@@ -49,7 +60,7 @@ Los torneos anteriores se mantienen en `tournaments/`, por lo que `persons/` y `
 
 ## Estructura de los JSON
 
-### 1. `tournaments/virtual/<id>/tournament.json`
+### 1. `tournaments/<tipo>/<id>/tournament.json`
 
 Todo el torneo en un solo objeto. Se eliminan los campos privados (`createdAt`, `created_at`, `groupId`, `datetime`).
 
@@ -65,7 +76,7 @@ Todo el torneo en un solo objeto. Se eliminan los campos privados (`createdAt`, 
 | `created_by` | string | Organizador |
 | `categories` | string[] | Categorías (`333`, `222`, `333oh`, …) |
 | `cronograma` | object[] | Horario por día (`day`, `shedule[]`) |
-| `type` | string | `virtual` |
+| `type` | string | Tipo elegido en el menú (`virtual`, `presencial`) |
 | `participants_count` | number | Cantidad de participantes |
 | `participants` | object[] | Ver tabla **participant** |
 | `events` | object[] | Ver tabla **event** |
@@ -166,6 +177,26 @@ Ranking de una categoría; cada persona aparece una vez con su mejor resultado e
 
 ---
 
+### 4. `information/information.json`
+
+Estadísticas generales de todos los torneos (de cualquier tipo).
+
+| Campo | Tipo | Descripción |
+|---|---|---|
+| `competitors` | number | Personas distintas que han competido (con al menos un resultado) |
+| `countries` | number | Países distintos de esos competidores |
+| `tournaments` | number | Total de torneos |
+| `tournaments_by_type` | object | `{ virtual: n, presencial: n }` |
+| `rounds` | number | Total de rondas con resultados |
+| `solves` | number | Total de intentos válidos (sin contar DNF) |
+| `dnf` | number | Total de DNF |
+| `first_tournament`, `last_tournament` | object | `{ id, title, type, start_date }` |
+| `competitors_by_country` | object[] | `{ country_iso, competitors }`, de mayor a menor |
+| `categories` | object[] | `{ id, competitors, tournaments, rounds, solves }` por categoría |
+| `records` | object | `{ <cat>: { single, average } }`: mejor resultado histórico de cada categoría, mismo formato que **ranking entry** |
+
+---
+
 ## URLs en GitHub Pages
 
 Con el repositorio publicado en `https://<usuario>.github.io/<repo>/`:
@@ -175,4 +206,5 @@ Con el repositorio publicado en `https://<usuario>.github.io/<repo>/`:
 /persons/Mathe458/person.json
 /ranking/virtual/333/single.json
 /ranking/virtual/333/average.json
+/information/information.json
 ```
