@@ -3,6 +3,13 @@
   "name": "Matheo08",
   "country_iso": "PE",
   "competitions_count": 1,
+  "podiums": {
+    "gold": 0,
+    "silver": 0,
+    "bronze": 0,
+    "total": 0,
+    "by_category": {}
+  },
   "personal_records": {
     "333": {
       "single": {
@@ -12,15 +19,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
         "round_id": "ultima-ronda-3x3",
-        "lexo_configuration": {
-          "tertiary_color": "#F69CAB",
-          "primary_color": "#F69CAB",
-          "secondary_color": "#FFFFFF"
-        },
         "attempt": {
           "time": 10.74,
           "penalty": null,
           "scr": "D2 F R F2 L2 B2 U2 L F2 R2 F2 D2 U2 R B' U R D F' U F2"
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 8,
+            "total": 14
+          }
         }
       },
       "average": {
@@ -30,11 +38,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
         "round_id": "ultima-ronda-3x3",
-        "lexo_configuration": {
-          "tertiary_color": "#F69CAB",
-          "primary_color": "#F69CAB",
-          "secondary_color": "#FFFFFF"
-        },
         "best_index": 2,
         "worst_index": 5,
         "attempts": [
@@ -63,10 +66,29 @@
             "penalty": null,
             "scr": "F U2 L U R' F' D F' R2 F2 D' B2 U2 F2 D B2 L2 U' L"
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 9,
+            "total": 14
+          }
+        }
       }
     }
   },
+  "history_lexo": [
+    {
+      "tournament_id": "legion-cubo-cup-2026",
+      "tournament_title": "Legion Cubo Cup 2026",
+      "tournament_type": "virtual",
+      "start_date": "2026-09-26",
+      "lexo_configuration": {
+        "tertiary_color": "#F69CAB",
+        "primary_color": "#F69CAB",
+        "secondary_color": "#FFFFFF"
+      }
+    }
+  ],
   "events": {
     "333": [
       {
@@ -74,11 +96,6 @@
         "tournament_title": "Legion Cubo Cup 2026",
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
-        "lexo_configuration": {
-          "tertiary_color": "#F69CAB",
-          "primary_color": "#F69CAB",
-          "secondary_color": "#FFFFFF"
-        },
         "rounds": [
           {
             "round_id": "primera-ronda-3x3",

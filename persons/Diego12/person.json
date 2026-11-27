@@ -3,6 +3,20 @@
   "name": "Diego12",
   "country_iso": "MX",
   "competitions_count": 1,
+  "podiums": {
+    "gold": 0,
+    "silver": 0,
+    "bronze": 1,
+    "total": 1,
+    "by_category": {
+      "333oh": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      }
+    }
+  },
   "personal_records": {
     "333oh": {
       "single": {
@@ -12,16 +26,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "final-333oh",
-        "lexo_configuration": {
-          "secondary_color": "#A2A2A2",
-          "background_card": "bg-lc-timer",
-          "primary_color": "#307C98",
-          "tertiary_color": "#31312E"
-        },
         "attempt": {
           "time": 45.89,
           "penalty": null,
           "scr": "U F' B R B L F D' L' R2 F L2 F' B2 D2 B U2 R2 U2 B2 U2 "
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 3,
+            "total": 3
+          }
         }
       },
       "average": {
@@ -31,12 +45,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "final-333oh",
-        "lexo_configuration": {
-          "secondary_color": "#A2A2A2",
-          "background_card": "bg-lc-timer",
-          "primary_color": "#307C98",
-          "tertiary_color": "#31312E"
-        },
         "best_index": 1,
         "worst_index": 5,
         "attempts": [
@@ -65,10 +73,30 @@
             "penalty": null,
             "scr": "U B U L F R2 F2 U' L' B2 U2 B' L2 F' L2 U2 R2 F2 L2 B L2 "
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 3,
+            "total": 3
+          }
+        }
       }
     }
   },
+  "history_lexo": [
+    {
+      "tournament_id": "cuboween-2026-tercera-fecha",
+      "tournament_title": "Cuboween 2026 Tercera Fecha",
+      "tournament_type": "virtual",
+      "start_date": "2026-10-24",
+      "lexo_configuration": {
+        "secondary_color": "#A2A2A2",
+        "background_card": "bg-lc-timer",
+        "primary_color": "#307C98",
+        "tertiary_color": "#31312E"
+      }
+    }
+  ],
   "events": {
     "333oh": [
       {
@@ -76,12 +104,6 @@
         "tournament_title": "Cuboween 2026 Tercera Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
-        "lexo_configuration": {
-          "secondary_color": "#A2A2A2",
-          "background_card": "bg-lc-timer",
-          "primary_color": "#307C98",
-          "tertiary_color": "#31312E"
-        },
         "rounds": [
           {
             "round_id": "first-round-333oh",

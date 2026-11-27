@@ -3,6 +3,26 @@
   "name": "Marsden3108",
   "country_iso": "PE",
   "competitions_count": 3,
+  "podiums": {
+    "gold": 2,
+    "silver": 2,
+    "bronze": 0,
+    "total": 4,
+    "by_category": {
+      "333": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0,
+        "total": 2
+      },
+      "222": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0,
+        "total": 2
+      }
+    }
+  },
   "personal_records": {
     "333": {
       "single": {
@@ -12,15 +32,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-17",
         "round_id": "final-333",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "attempt": {
           "time": 7.8,
           "penalty": null,
           "scr": "U2 B' R' U2 B2 F2 R D2 R2 F2 D2 F2 D U' R' U B2 D' L'"
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 3,
+            "total": 14
+          }
         }
       },
       "average": {
@@ -30,11 +51,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-17",
         "round_id": "final-333",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "best_index": 1,
         "worst_index": 5,
         "attempts": [
@@ -63,7 +79,13 @@
             "penalty": null,
             "scr": "U2 D F R U R' F U L2 F2 U' F2 D2 R2 L2 D' F2 B2 U' B"
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 2,
+            "total": 14
+          }
+        }
       }
     },
     "222": {
@@ -74,15 +96,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
         "round_id": "ultima-ronda-2x2",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "secondary_color": "#F8BA16",
-          "primary_color": "#F8BA16"
-        },
         "attempt": {
           "time": 2.02,
           "penalty": null,
           "scr": "U F2 R U' F2 R' U' F' R2"
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 3,
+            "total": 10
+          }
         }
       },
       "average": {
@@ -92,11 +115,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
         "round_id": "ultima-ronda-2x2",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "secondary_color": "#F8BA16",
-          "primary_color": "#F8BA16"
-        },
         "best_index": 4,
         "worst_index": 2,
         "attempts": [
@@ -125,10 +143,29 @@
             "penalty": null,
             "scr": "U2 R' F2 R F2 R' U2 F U'"
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 3,
+            "total": 10
+          }
+        }
       }
     }
   },
+  "history_lexo": [
+    {
+      "tournament_id": "legion-cubo-cup-2026",
+      "tournament_title": "Legion Cubo Cup 2026",
+      "tournament_type": "virtual",
+      "start_date": "2026-09-26",
+      "lexo_configuration": {
+        "tertiary_color": "#31312E",
+        "secondary_color": "#F8BA16",
+        "primary_color": "#F8BA16"
+      }
+    }
+  ],
   "events": {
     "333": [
       {
@@ -136,11 +173,6 @@
         "tournament_title": "Cuboween 2026 Segunda Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-17",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "rounds": [
           {
             "round_id": "first-round-333",
@@ -221,11 +253,6 @@
         "tournament_title": "Cuboween 2026 Primera Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-10",
-        "lexo_configuration": {
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E",
-          "primary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "first-round-333",
@@ -270,11 +297,6 @@
         "tournament_title": "Legion Cubo Cup 2026",
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "secondary_color": "#F8BA16",
-          "primary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "primera-ronda-3x3",
@@ -357,11 +379,6 @@
         "tournament_title": "Cuboween 2026 Primera Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-10",
-        "lexo_configuration": {
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E",
-          "primary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "first-round-222",
@@ -442,11 +459,6 @@
         "tournament_title": "Legion Cubo Cup 2026",
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "secondary_color": "#F8BA16",
-          "primary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "primera-ronda-2x2",

@@ -335,44 +335,44 @@
       "name": "XAmperex17",
       "country_iso": "PE",
       "average": 12.2,
-      "tournament_id": "cuboween-2026-primera-fecha",
-      "tournament_title": "Cuboween 2026 Primera Fecha",
-      "start_date": "2026-10-10",
-      "round_id": "final-333",
+      "tournament_id": "legion-cubo-cup-2026",
+      "tournament_title": "Legion Cubo Cup 2026",
+      "start_date": "2026-09-26",
+      "round_id": "ultima-ronda-3x3",
       "type_round": "final",
       "lexo_configuration": {
-        "tertiary_color": "#C12328",
+        "object": "2",
         "secondary_color": "#FFFFFF",
-        "primary_color": "#307C98",
-        "object": "2"
+        "tertiary_color": "#C12328",
+        "primary_color": "#307C98"
       },
-      "best_index": 1,
-      "worst_index": 4,
+      "best_index": 4,
+      "worst_index": 3,
       "attempts": [
         {
-          "time": 11.07,
+          "time": 12.1,
           "penalty": null,
-          "scr": "L2 D2 U2 B2 F U2 F L2 F L2 R2 D' R' F U2 B' R2 D' U F"
+          "scr": "L F2 L U2 D R L' U' R2 L2 F' D2 F U2 R2 F2 B' R' L2"
         },
         {
-          "time": 11.21,
+          "time": 11.98,
           "penalty": null,
-          "scr": "L U2 R' D2 R D2 R B2 R B2 R B U R' F L2 D2 R D' R'"
+          "scr": "B2 F2 U2 B2 D R2 D' U R2 U' L2 F' D B D' L' B D U F2 R'"
         },
         {
-          "time": 13.93,
+          "time": 15.03,
           "penalty": null,
-          "scr": "U2 R2 B D R' U B R2 U' R' F2 R D2 B2 L F2 R2 L' F2 B2"
+          "scr": "U F' U B' L' D B' D' F2 L2 U' B2 U R2 B2 U2 F2 U' R' B2"
         },
         {
-          "time": 14.97,
+          "time": 10.39,
           "penalty": null,
-          "scr": "F2 U' R' F2 L2 B2 F2 D U R2 D B2 D' L F' R2 B F2 R' F2"
+          "scr": "B U2 R' B U F2 U B' R' F2 D2 F2 B2 L U2 R2 F2 U2 R D2"
         },
         {
-          "time": 11.46,
+          "time": 12.53,
           "penalty": null,
-          "scr": "F U2 F2 L2 D' L2 B2 U' R2 D' F' D2 F' R U R B F"
+          "scr": "L2 U F2 L2 R2 D U2 L2 D' R D R' U2 F' U B' R' B' U"
         }
       ]
     },

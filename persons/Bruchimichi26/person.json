@@ -3,6 +3,26 @@
   "name": "Bruchimichi26",
   "country_iso": "CR",
   "competitions_count": 3,
+  "podiums": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 1,
+    "total": 2,
+    "by_category": {
+      "333": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      },
+      "333oh": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "total": 1
+      }
+    }
+  },
   "personal_records": {
     "333": {
       "single": {
@@ -12,17 +32,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "final-333",
-        "lexo_configuration": {
-          "background_card": "bg-lc-rivals",
-          "tertiary_color": "#C12328",
-          "secondary_color": "#C12328",
-          "suit": "zombie",
-          "primary_color": "#F8BA16"
-        },
         "attempt": {
           "time": 15.62,
           "penalty": null,
           "scr": "F U2 F' L2 R2 F2 U2 R2 B R2 F' L2 R' U R' F2 R' D2 B' R' B2 "
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 11,
+            "total": 14
+          }
         }
       },
       "average": {
@@ -32,13 +51,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "final-333",
-        "lexo_configuration": {
-          "background_card": "bg-lc-rivals",
-          "tertiary_color": "#C12328",
-          "secondary_color": "#C12328",
-          "suit": "zombie",
-          "primary_color": "#F8BA16"
-        },
         "best_index": 4,
         "worst_index": 3,
         "attempts": [
@@ -67,7 +79,13 @@
             "penalty": null,
             "scr": "B' L F2 D2 B2 U2 R' F2 L' B2 L' R2 B L' D B D R D' L2 "
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 11,
+            "total": 14
+          }
+        }
       }
     },
     "222": {
@@ -78,15 +96,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-10",
         "round_id": "first-round-222",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16"
-        },
         "attempt": {
           "time": 0.75,
           "penalty": "+2",
           "scr": "U2 R' U' R2 U F' U2 F' U2"
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 9,
+            "total": 10
+          }
         }
       },
       "average": {
@@ -96,11 +115,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-10",
         "round_id": "first-round-222",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16"
-        },
         "best_index": 2,
         "worst_index": 1,
         "attempts": [
@@ -129,7 +143,13 @@
             "penalty": null,
             "scr": "R2 U' R F2 R' U' R2 U2 R'"
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 10,
+            "total": 10
+          }
+        }
       }
     },
     "333oh": {
@@ -140,17 +160,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "first-round-333oh",
-        "lexo_configuration": {
-          "background_card": "bg-lc-rivals",
-          "tertiary_color": "#C12328",
-          "secondary_color": "#C12328",
-          "suit": "zombie",
-          "primary_color": "#F8BA16"
-        },
         "attempt": {
           "time": 32.63,
           "penalty": null,
           "scr": "D' F B2 L2 R2 U' R2 D R2 U' B2 U' B2 F2 R F' L' D' B F R2 "
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 2,
+            "total": 3
+          }
         }
       },
       "average": {
@@ -160,13 +179,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "final-333oh",
-        "lexo_configuration": {
-          "background_card": "bg-lc-rivals",
-          "tertiary_color": "#C12328",
-          "secondary_color": "#C12328",
-          "suit": "zombie",
-          "primary_color": "#F8BA16"
-        },
         "best_index": 1,
         "worst_index": 4,
         "attempts": [
@@ -195,10 +207,42 @@
             "penalty": null,
             "scr": "L U' F R D B U2 L D2 L2 F2 U2 D' F2 R2 D F2 L2 F2 L2 "
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 2,
+            "total": 3
+          }
+        }
       }
     }
   },
+  "history_lexo": [
+    {
+      "tournament_id": "legion-cubo-cup-2026",
+      "tournament_title": "Legion Cubo Cup 2026",
+      "tournament_type": "virtual",
+      "start_date": "2026-09-26",
+      "lexo_configuration": {
+        "secondary_color": "#F8BA16",
+        "tertiary_color": "#31312E",
+        "primary_color": "#F8BA16"
+      }
+    },
+    {
+      "tournament_id": "cuboween-2026-tercera-fecha",
+      "tournament_title": "Cuboween 2026 Tercera Fecha",
+      "tournament_type": "virtual",
+      "start_date": "2026-10-24",
+      "lexo_configuration": {
+        "background_card": "bg-lc-rivals",
+        "tertiary_color": "#C12328",
+        "secondary_color": "#C12328",
+        "suit": "zombie",
+        "primary_color": "#F8BA16"
+      }
+    }
+  ],
   "events": {
     "333": [
       {
@@ -206,13 +250,6 @@
         "tournament_title": "Cuboween 2026 Tercera Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
-        "lexo_configuration": {
-          "background_card": "bg-lc-rivals",
-          "tertiary_color": "#C12328",
-          "secondary_color": "#C12328",
-          "suit": "zombie",
-          "primary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "first-round-333",
@@ -293,11 +330,6 @@
         "tournament_title": "Legion Cubo Cup 2026",
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
-        "lexo_configuration": {
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E",
-          "primary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "primera-ronda-3x3",
@@ -380,11 +412,6 @@
         "tournament_title": "Cuboween 2026 Primera Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-10",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "first-round-222",
@@ -467,13 +494,6 @@
         "tournament_title": "Cuboween 2026 Tercera Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
-        "lexo_configuration": {
-          "background_card": "bg-lc-rivals",
-          "tertiary_color": "#C12328",
-          "secondary_color": "#C12328",
-          "suit": "zombie",
-          "primary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "first-round-333oh",

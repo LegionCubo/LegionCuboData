@@ -3,6 +3,32 @@
   "name": "Mathe458",
   "country_iso": "PE",
   "competitions_count": 2,
+  "podiums": {
+    "gold": 3,
+    "silver": 1,
+    "bronze": 0,
+    "total": 4,
+    "by_category": {
+      "333": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0,
+        "total": 2
+      },
+      "222": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "total": 1
+      },
+      "333oh": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "total": 1
+      }
+    }
+  },
   "personal_records": {
     "333": {
       "single": {
@@ -12,15 +38,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "final-333",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "attempt": {
           "time": 7.56,
           "penalty": null,
           "scr": "U L' D B2 D' R L2 B R F2 L2 U2 R2 L2 F R2 U2 F U2 B2 U' "
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 2,
+            "total": 14
+          }
         }
       },
       "average": {
@@ -30,11 +57,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "final-333",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "best_index": 3,
         "worst_index": 4,
         "attempts": [
@@ -63,7 +85,13 @@
             "penalty": null,
             "scr": "F2 R' F R2 D L2 F U' D2 B2 L2 F D2 F L2 D2 L2 D2 F' L2 "
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 3,
+            "total": 14
+          }
+        }
       }
     },
     "222": {
@@ -74,15 +102,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "final-222",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "attempt": {
           "time": 1.46,
           "penalty": null,
           "scr": "R2 F' R F' R2 U' F2 R' U'"
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 2,
+            "total": 10
+          }
         }
       },
       "average": {
@@ -92,11 +121,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "first-round-222",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "best_index": 5,
         "worst_index": 1,
         "attempts": [
@@ -125,7 +149,13 @@
             "penalty": null,
             "scr": "R2 F R2 U' F' U2 F U' R'"
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 2,
+            "total": 10
+          }
+        }
       }
     },
     "333oh": {
@@ -136,15 +166,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "first-round-333oh",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "attempt": {
           "time": 11.28,
           "penalty": null,
           "scr": "U2 F2 L2 R' B2 F2 R' U2 L U R2 D B L2 F2 R D' F "
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 1,
+            "total": 3
+          }
         }
       },
       "average": {
@@ -154,11 +185,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
         "round_id": "first-round-333oh",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "best_index": 1,
         "worst_index": 3,
         "attempts": [
@@ -187,10 +213,29 @@
             "penalty": null,
             "scr": "D' F B2 L2 R2 U' R2 D R2 U' B2 U' B2 F2 R F' L' D' B F R2 "
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 1,
+            "total": 3
+          }
+        }
       }
     }
   },
+  "history_lexo": [
+    {
+      "tournament_id": "legion-cubo-cup-2026",
+      "tournament_title": "Legion Cubo Cup 2026",
+      "tournament_type": "virtual",
+      "start_date": "2026-09-26",
+      "lexo_configuration": {
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16",
+        "tertiary_color": "#31312E"
+      }
+    }
+  ],
   "events": {
     "333": [
       {
@@ -198,11 +243,6 @@
         "tournament_title": "Cuboween 2026 Tercera Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "rounds": [
           {
             "round_id": "first-round-333",
@@ -283,11 +323,6 @@
         "tournament_title": "Legion Cubo Cup 2026",
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "rounds": [
           {
             "round_id": "primera-ronda-3x3",
@@ -370,11 +405,6 @@
         "tournament_title": "Cuboween 2026 Tercera Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "rounds": [
           {
             "round_id": "first-round-222",
@@ -457,11 +487,6 @@
         "tournament_title": "Cuboween 2026 Tercera Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-24",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16",
-          "tertiary_color": "#31312E"
-        },
         "rounds": [
           {
             "round_id": "first-round-333oh",

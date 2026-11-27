@@ -3,6 +3,13 @@
   "name": "TomoriYozakura297",
   "country_iso": "AR",
   "competitions_count": 1,
+  "podiums": {
+    "gold": 0,
+    "silver": 0,
+    "bronze": 0,
+    "total": 0,
+    "by_category": {}
+  },
   "personal_records": {
     "333": {
       "single": {
@@ -12,15 +19,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
         "round_id": "primera-ronda-3x3",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16"
-        },
         "attempt": {
           "time": 17.07,
           "penalty": null,
           "scr": "R2 U L2 F2 U' B2 F2 U R2 U' B2 R' U2 B' U' F L U2 R2 D' U"
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 14,
+            "total": 14
+          }
         }
       },
       "average": {
@@ -30,11 +38,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
         "round_id": "primera-ronda-3x3",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16"
-        },
         "best_index": 2,
         "worst_index": 1,
         "attempts": [
@@ -63,10 +66,29 @@
             "penalty": null,
             "scr": "F2 R2 U2 B' F2 R2 D2 R2 D2 R2 B' R' U F D L D U2 B2 L' U'"
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 14,
+            "total": 14
+          }
+        }
       }
     }
   },
+  "history_lexo": [
+    {
+      "tournament_id": "legion-cubo-cup-2026",
+      "tournament_title": "Legion Cubo Cup 2026",
+      "tournament_type": "virtual",
+      "start_date": "2026-09-26",
+      "lexo_configuration": {
+        "tertiary_color": "#31312E",
+        "primary_color": "#F8BA16",
+        "secondary_color": "#F8BA16"
+      }
+    }
+  ],
   "events": {
     "333": [
       {
@@ -74,11 +96,6 @@
         "tournament_title": "Legion Cubo Cup 2026",
         "tournament_type": "virtual",
         "start_date": "2026-09-26",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "primary_color": "#F8BA16",
-          "secondary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "primera-ronda-3x3",

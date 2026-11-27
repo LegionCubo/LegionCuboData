@@ -3,6 +3,20 @@
   "name": "1axnplus1",
   "country_iso": "BO",
   "competitions_count": 2,
+  "podiums": {
+    "gold": 0,
+    "silver": 1,
+    "bronze": 0,
+    "total": 1,
+    "by_category": {
+      "222": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "total": 1
+      }
+    }
+  },
   "personal_records": {
     "333": {
       "single": {
@@ -12,15 +26,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-10",
         "round_id": "final-333",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "secondary_color": "#F8BA16",
-          "primary_color": "#F8BA16"
-        },
         "attempt": {
           "time": 10.74,
           "penalty": null,
           "scr": "F2 U' R' F2 L2 B2 F2 D U R2 D B2 D' L F' R2 B F2 R' F2"
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 8,
+            "total": 14
+          }
         }
       },
       "average": {
@@ -30,11 +45,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-10",
         "round_id": "final-333",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "secondary_color": "#F8BA16",
-          "primary_color": "#F8BA16"
-        },
         "best_index": 4,
         "worst_index": 3,
         "attempts": [
@@ -63,7 +73,13 @@
             "penalty": null,
             "scr": "F U2 F2 L2 D' L2 B2 U' R2 D' F' D2 F' R U R B F"
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 7,
+            "total": 14
+          }
+        }
       }
     },
     "222": {
@@ -74,15 +90,16 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-17",
         "round_id": "first-round-222",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "tertiary_color": "#F69CAB",
-          "secondary_color": "#F8BA16"
-        },
         "attempt": {
           "time": 2.56,
           "penalty": null,
           "scr": "F R F2 R2 U R' U' F U"
+        },
+        "ranking": {
+          "virtual": {
+            "pos": 7,
+            "total": 10
+          }
         }
       },
       "average": {
@@ -92,11 +109,6 @@
         "tournament_type": "virtual",
         "start_date": "2026-10-17",
         "round_id": "first-round-222",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "tertiary_color": "#F69CAB",
-          "secondary_color": "#F8BA16"
-        },
         "best_index": 4,
         "worst_index": 3,
         "attempts": [
@@ -125,10 +137,40 @@
             "penalty": null,
             "scr": "F2 R U' R U2 F R' F2 R"
           }
-        ]
+        ],
+        "ranking": {
+          "virtual": {
+            "pos": 4,
+            "total": 10
+          }
+        }
       }
     }
   },
+  "history_lexo": [
+    {
+      "tournament_id": "cuboween-2026-primera-fecha",
+      "tournament_title": "Cuboween 2026 Primera Fecha",
+      "tournament_type": "virtual",
+      "start_date": "2026-10-10",
+      "lexo_configuration": {
+        "tertiary_color": "#31312E",
+        "secondary_color": "#F8BA16",
+        "primary_color": "#F8BA16"
+      }
+    },
+    {
+      "tournament_id": "cuboween-2026-segunda-fecha",
+      "tournament_title": "Cuboween 2026 Segunda Fecha",
+      "tournament_type": "virtual",
+      "start_date": "2026-10-17",
+      "lexo_configuration": {
+        "primary_color": "#F8BA16",
+        "tertiary_color": "#F69CAB",
+        "secondary_color": "#F8BA16"
+      }
+    }
+  ],
   "events": {
     "333": [
       {
@@ -136,11 +178,6 @@
         "tournament_title": "Cuboween 2026 Primera Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-10",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "secondary_color": "#F8BA16",
-          "primary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "first-round-333",
@@ -223,11 +260,6 @@
         "tournament_title": "Cuboween 2026 Segunda Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-17",
-        "lexo_configuration": {
-          "primary_color": "#F8BA16",
-          "tertiary_color": "#F69CAB",
-          "secondary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "first-round-222",
@@ -308,11 +340,6 @@
         "tournament_title": "Cuboween 2026 Primera Fecha",
         "tournament_type": "virtual",
         "start_date": "2026-10-10",
-        "lexo_configuration": {
-          "tertiary_color": "#31312E",
-          "secondary_color": "#F8BA16",
-          "primary_color": "#F8BA16"
-        },
         "rounds": [
           {
             "round_id": "first-round-222",

@@ -15,12 +15,13 @@ flowchart LR
     D1 & D2 & D3 --> S1([build_tournament.py])
     S1 --> T["tournaments/&lt;tipo&gt;/&lt;id&gt;/tournament.json"]
 
-    T --> S2([build_persons.py])
-    S2 --> P["persons/&lt;id&gt;/person.json"]
+    T --> S2([build_rankings.py])
+    S2 --> R1["ranking/&lt;tipo&gt;/&lt;cat&gt;/single.json"]
+    S2 --> R2["ranking/&lt;tipo&gt;/&lt;cat&gt;/average.json"]
 
-    P --> S3([build_rankings.py])
-    S3 --> R1["ranking/virtual/&lt;cat&gt;/single.json"]
-    S3 --> R2["ranking/virtual/&lt;cat&gt;/average.json"]
+    T --> S3([build_persons.py])
+    R1 & R2 -->|posición en ranking| S3
+    S3 --> P["persons/&lt;id&gt;/person.json"]
 
     T --> S4([build_information.py])
     S4 --> I["information/information.json"]
@@ -31,14 +32,16 @@ Cada script usa la salida del anterior, así que **siempre se ejecutan en este o
 | Paso | Comando | Lee | Escribe |
 |---|---|---|---|
 | 1 | `py build_tournament.py` | `data/*.json` (el torneo que esté en `data/`) | `tournaments/<tipo>/<id>/tournament.json` |
-| 2 | `py build_persons.py` | **todos** los `tournaments/*/*/tournament.json` | `persons/<id>/person.json` |
-| 3 | `py build_rankings.py` | **todos** los `persons/*/person.json` | `ranking/<tipo>/<cat>/single.json` y `average.json` |
+| 2 | `py build_rankings.py` | **todos** los `tournaments/*/*/tournament.json` | `ranking/<tipo>/<cat>/single.json` y `average.json` |
+| 3 | `py build_persons.py` | **todos** los `tournaments/*/*/tournament.json` + `ranking/` | `persons/<id>/person.json` |
 | 4 | `py build_information.py` | **todos** los `tournaments/*/*/tournament.json` | `information/information.json` |
+
+> `build_persons.py` necesita que `ranking/` esté actualizado: si se ejecuta antes que `build_rankings.py`, las posiciones del ranking quedan desactualizadas.
 
 ### Agregar un torneo nuevo
 
 1. Reemplazar los 3 archivos de `data/` con los del nuevo torneo.
-2. Ejecutar los 3 scripts en orden. `build_tournament.py` muestra un menú para elegir el tipo de torneo:
+2. Ejecutar los 4 scripts en orden. `build_tournament.py` muestra un menú para elegir el tipo de torneo:
    ```
    Selecciona el tipo de torneo:
      1. virtual  (por defecto)
@@ -125,8 +128,22 @@ Historial de un competidor en todos los torneos.
 | `id`, `name` | string | Competidor |
 | `country_iso` | string | País |
 | `competitions_count` | number | Cantidad de torneos en los que compitió |
+| `podiums` | object | Medallas, ver tabla **podiums** |
 | `personal_records` | object | `{ <cat>: { single, average } }`, ver tabla **record** |
+| `history_lexo` | object[] | Lexos distintos que ha usado, ver tabla **lexo** (vacío `[]` si no tiene) |
 | `events` | object | `{ <cat>: participation[] }`, del torneo más reciente al más antiguo |
+
+**podiums**
+
+| Campo | Tipo | Descripción |
+|---|---|---|
+| `gold` | number | Veces en 1er lugar |
+| `silver` | number | Veces en 2do lugar |
+| `bronze` | number | Veces en 3er lugar |
+| `total` | number | Total de podios |
+| `by_category` | object | `{ <cat>: { gold, silver, bronze, total } }` (solo categorías con podio) |
+
+Solo cuenta la **final** de cada categoría (la última ronda con resultados), y el competidor debe tener al menos un tiempo válido (regla WCA: un DNF total no es podio).
 
 **record** (`personal_records.<cat>.single` / `.average`)
 
@@ -135,16 +152,25 @@ Historial de un competidor en todos los torneos.
 | `single` / `average` | number | Mejor tiempo (según el tipo) |
 | `tournament_id`, `tournament_title`, `tournament_type`, `start_date` | string | Torneo donde lo logró |
 | `round_id` | string | Ronda donde lo logró |
-| `lexo_configuration` | object | Lexo usado en ese torneo |
+| `ranking` | object | Posición en cada ranking donde aparece: `{ virtual: { pos, total } }` |
 | `attempt` | object | Solo en `single`: el intento `{ time, penalty, scr }` |
+| `best_index`, `worst_index` | number | Solo en `average`: posición (1-5) del mejor y peor intento |
 | `attempts` | object[] | Solo en `average`: los 5 intentos de esa ronda |
+
+**lexo** (`history_lexo[]`, del más antiguo al más reciente)
+
+| Campo | Tipo | Descripción |
+|---|---|---|
+| `tournament_id`, `tournament_title`, `tournament_type`, `start_date` | string | Primer torneo donde usó ese Lexo |
+| `lexo_configuration` | object | Colores y traje del Lexo |
+
+Si repite el mismo Lexo en varios torneos, solo aparece una vez (con el primer torneo).
 
 **participation** (`events.<cat>[]`)
 
 | Campo | Tipo | Descripción |
 |---|---|---|
 | `tournament_id`, `tournament_title`, `tournament_type`, `start_date` | string | Torneo |
-| `lexo_configuration` | object | Lexo usado en ese torneo |
 | `rounds` | object[] | `{ round_id, id_round, type_round, pos, best, average, worst, attempts[] }` |
 
 ---
@@ -173,7 +199,10 @@ Ranking de una categoría; cada persona aparece una vez con su mejor resultado e
 | `round_id`, `type_round` | string | Ronda donde lo logró |
 | `lexo_configuration` | object | Lexo usado en ese torneo |
 | `attempt` | object | Solo en `single.json`: `{ time, penalty, scr }` |
+| `best_index`, `worst_index` | number | Solo en `average.json`: posición (1-5) del mejor y peor intento |
 | `attempts` | object[] | Solo en `average.json`: los 5 intentos |
+
+Si una persona logra el mismo tiempo en dos torneos, cuenta el más antiguo (como en la WCA).
 
 ---
 
